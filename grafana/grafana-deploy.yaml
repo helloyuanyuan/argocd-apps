@@ -1,0 +1,66 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grafana
+  namespace: argocd-apps
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: grafana
+  template:
+    metadata:
+      name: grafana
+      labels:
+        app: grafana
+    spec:
+      containers:
+        - name: grafana
+          image: grafana/grafana:latest
+          ports:
+            - name: grafana
+              containerPort: 3000
+          env:
+            - name: GF_AUTH_LDAP_ENABLED
+              value: "true"
+            - name: GF_AUTH_LDAP_ALLOW_SIGN_UP
+              value: "true"
+            - name: GF_AUTH_LDAP_SKIP_ORG_ROLE_SYNC
+              value: "true"
+            - name: GF_AUTH_LDAP_CONFIG_FILE
+              value: /etc/grafana/provisioning-ldap.toml
+          envFrom:
+            - secretRef:
+                name: grafana-secret
+          resources:
+            limits:
+              memory: "1Gi"
+              cpu: "1000m"
+            requests:
+              memory: "500M"
+              cpu: "500m"
+          volumeMounts:
+            - mountPath: /var/lib/grafana
+              name: grafana-storage
+            - mountPath: /etc/grafana/provisioning-ldap.toml
+              name: grafana-config
+              readOnly: false
+              subPath: provisioning-ldap.toml
+            - mountPath: /etc/grafana/provisioning/datasources/provisioning-datasource-influxdb.yaml
+              name: grafana-config
+              readOnly: false
+              subPath: provisioning-datasource-influxdb.yaml
+            - mountPath: /etc/grafana/provisioning/dashboards/provisioning-dashboard-provider.yaml
+              name: grafana-config
+              readOnly: false
+              subPath: provisioning-dashboard-provider.yaml
+            - mountPath: /var/lib/grafana/dashboards/provisioning-dashboard-jmeterloadtest.json
+              name: grafana-config
+              readOnly: false
+              subPath: provisioning-dashboard-jmeterloadtest.json
+      volumes:
+        - name: grafana-storage
+          emptyDir: {}
+        - name: grafana-config
+          configMap:
+            name: grafana-config

@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hellodemo
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: hellodemo
+  template:
+    metadata:
+      labels:
+        app: hellodemo
+    spec:
+      containers:
+      - image: ikubernetes/demoapp:v1.0
+        name: hellodemo
+        ports:
+        - containerPort: 80
