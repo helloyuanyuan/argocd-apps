@@ -3,16 +3,25 @@ ingress:
   ingressClassName: nginx
   path: /
   pathType: Prefix
-  hosts: 
+  hosts:
     - argocd.app.grafana.localdev.me
 
 resources:
   requests:
-    memory: "256Mi"
-    cpu: "200m"
+    cpu: 200m
+    memory: 256Mi
   limits:
-    memory: "1024Mi"
-    cpu: "1000m"
+    cpu: 1000m
+    memory: 1024Mi
+
+initChownData:
+  resources:
+    limits:
+      cpu: 100m
+      memory: 128Mi
+    requests:
+      cpu: 100m
+      memory: 128Mi
 
 datasources:
   datasources.yaml:
