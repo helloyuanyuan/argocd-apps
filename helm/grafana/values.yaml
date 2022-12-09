@@ -857,7 +857,17 @@ ldap:
     use_ssl = false
     start_tls = false
     ssl_skip_verify = true
-    bind_dn = "uid=%s,ou=users,dc=myorg,dc=com"
+    bind_dn = "cn=admin,dc=mycompany,dc=org"
+    bind_password = "admin"
+    search_filter = "(cn=%s)"
+    search_base_dns = ["ou=Users,dc=mycompany,dc=org"]
+
+    [servers.attributes]
+    name = "givenName"
+    surname = "sn"
+    username = "cn"
+    member_of = "memberOf"
+    email =  "email"
 ## Grafana's SMTP configuration
 ## NOTE: To enable, grafana.ini must be configured with smtp.enabled
 ## ref: http://docs.grafana.org/installation/configuration/#smtp
