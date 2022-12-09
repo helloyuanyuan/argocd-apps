@@ -6,12 +6,12 @@ metadata:
 spec:
   project: default
   source:
-    path: charts/grafana
-    repoURL: https://github.com/grafana/helm-charts.git
-    targetRevision: grafana-6.46.0
+    path: helm/grafana/charts/charts/grafana
+    repoURL: https://github.com/helloyuanyuan/argocd-apps.git
+    targetRevision: main
     helm:
       valueFiles:
-        - https://raw.githubusercontent.com/helloyuanyuan/argocd-apps/main/helm/grafana/values.yaml
+        - ../values.yaml
   destination:
     namespace: argocd-apps
     server: "https://kubernetes.default.svc"
