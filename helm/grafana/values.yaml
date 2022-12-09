@@ -1,12 +1,10 @@
-global:
-  imagePullSecrets: image-pull-secret
-
 ingress:
   enabled: true
   ingressClassName: nginx
   path: /
   pathType: Prefix
-  hosts: argocd.app.grafana.localdev.me
+  hosts: 
+    - argocd.app.grafana.localdev.me
 
 resources:
   requests:
