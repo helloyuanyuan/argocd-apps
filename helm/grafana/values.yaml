@@ -1,3 +1,6 @@
+envRenderSecret:
+  LDAP_BIND_PW: 'xUB=RDZmT69vk4;tr*3z{{n/'
+
 ingress:
   enabled: true
   ingressClassName: nginx
@@ -14,14 +17,14 @@ resources:
     cpu: 1000m
     memory: 1024Mi
 
-initChownData:
+downloadDashboards:
   resources:
     limits:
-      cpu: 100m
-      memory: 128Mi
+      cpu: 200m
+      memory: 256Mi
     requests:
-      cpu: 100m
-      memory: 128Mi
+      cpu: 200m
+      memory: 256Mi
 
 datasources:
   datasources.yaml:
@@ -205,7 +208,7 @@ ldap:
     start_tls = false
     ssl_skip_verify = true
     bind_dn = "cn=admin,dc=mycompany,dc=org"
-    bind_password = "admin"
+    bind_password = '$__env{LDAP_BIND_PW}'
     search_filter = "(cn=%s)"
     search_base_dns = ["ou=Users,dc=mycompany,dc=org"]
 
