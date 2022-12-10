@@ -1,0 +1,34 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: jmetertest
+spec:
+  ttlSecondsAfterFinished: 0
+  template:
+    spec:
+      # imagePullSecrets:
+      #   - name: image-pull-secret
+      containers:
+        - name: jmetertest
+          image: "{{ .Values.containers.image.repository }}:{{ .Values.containers.image.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 9270
+            - containerPort: 4445
+          command: ["/bin/sh"]
+          args: ["-c", "/jmeter_test.sh -t ./{{ .Values.containers.scriptName }}"]
+          volumeMounts:
+            - name: workdir
+              mountPath: /tmp
+      initContainers:
+        - name: jmetertestscript
+          image: "{{ .Values.initContainers.image.repository }}:{{ .Values.initContainers.image.tag | default .Chart.AppVersion }}"
+          command: ["/bin/sh"]
+          args: ["-c", "cp ./* /tmp/"]
+          volumeMounts:
+            - name: workdir
+              mountPath: "/tmp"
+      restartPolicy: Never
+      volumes:
+        - name: workdir
+          emptyDir: {}
