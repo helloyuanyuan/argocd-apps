@@ -4,6 +4,7 @@ ARG JMETER_VERSION="5.5"
 ARG EXPORTER_VERSION="0.6.0"
 ARG OPENJDK_VERSION="18"
 
+ENV INFLUXDB2_LISTENER_VERSION="2.6"
 ENV JMETER_PLUGINS_MANAGER_VERSION="1.6"
 ENV CMDRUNNER_VERSION="2.2"
 
@@ -31,6 +32,7 @@ RUN apk update \
  && mkdir -p /opt \
  && tar -xzf apache-jmeter-${JMETER_VERSION}.tgz -C /opt  \
  && rm -rf /tmp/* \
+ && curl --location --silent --show-error --output ${JMETER_LIB}/ext/jmeter-plugins-influxdb2-listener-${INFLUXDB2_LISTENER_VERSION}.jar https://github.com/mderevyankoaqa/jmeter-influxdb2-listener-plugin/releases/download/v${INFLUXDB2_LISTENER_VERSION}/jmeter-plugins-influxdb2-listener-${INFLUXDB2_LISTENER_VERSION}.jar \
  && curl --location --silent --show-error --output ${JMETER_LIB}/ext/jmeter-plugins-manager-${JMETER_PLUGINS_MANAGER_VERSION}.jar http://search.maven.org/remotecontent?filepath=kg/apc/jmeter-plugins-manager/${JMETER_PLUGINS_MANAGER_VERSION}/jmeter-plugins-manager-${JMETER_PLUGINS_MANAGER_VERSION}.jar \ 
  && curl --location --silent --show-error --output ${JMETER_LIB}/cmdrunner-${CMDRUNNER_VERSION}.jar http://search.maven.org/remotecontent?filepath=kg/apc/cmdrunner/${CMDRUNNER_VERSION}/cmdrunner-${CMDRUNNER_VERSION}.jar \
  && java -cp ${JMETER_LIB}/ext/jmeter-plugins-manager-${JMETER_PLUGINS_MANAGER_VERSION}.jar org.jmeterplugins.repository.PluginManagerCMDInstaller \
