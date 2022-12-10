@@ -16,7 +16,7 @@ spec:
             - containerPort: 9270
             - containerPort: 4445
           command: ["/bin/sh"]
-          args: ["-c", "/jmeter_test.sh -t ./{{ .Values.containers.scriptName }}"]
+          args: ["-c", "/jmeter_test.sh -t ./{{ .Values.scriptName }}"]
           volumeMounts:
             - name: workdir
               mountPath: /tmp

@@ -2,9 +2,10 @@ containers:
   image:
     repository: helloyuanyuan/jmeter
     tag: latest
-  scriptName: sample1.jmx
         
 initContainers:
   image:
     repository: helloyuanyuan/jmetertestscript
     tag: latest
+
+scriptName: sample1.jmx
