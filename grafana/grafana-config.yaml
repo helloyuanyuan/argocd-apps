@@ -2,257 +2,6 @@ apiVersion: v1
 data:
   provisioning-dashboard-jmeterloadtest.json: |-
     {
-      "__inputs": [
-        {
-          "name": "DS_INFLUXDB2.0_JMETER",
-          "label": "InfluxDB2.0_Jmeter",
-          "description": "",
-          "type": "datasource",
-          "pluginId": "influxdb",
-          "pluginName": "InfluxDB"
-        }
-      ],
-      "__elements": {
-        "NKdhkbj7k": {
-          "name": "Porcessing Time = Latency - Connect Time ",
-          "uid": "NKdhkbj7k",
-          "kind": 1,
-          "model": {
-            "datasource": {
-              "type": "influxdb",
-              "name": "InfluxDB_v2_Flux"
-            },
-            "description": "",
-            "fieldConfig": {
-              "defaults": {
-                "color": {
-                  "mode": "palette-classic"
-                },
-                "custom": {
-                  "axisCenteredZero": false,
-                  "axisColorMode": "text",
-                  "axisLabel": "",
-                  "axisPlacement": "auto",
-                  "barAlignment": 0,
-                  "drawStyle": "line",
-                  "fillOpacity": 10,
-                  "gradientMode": "none",
-                  "hideFrom": {
-                    "legend": false,
-                    "tooltip": false,
-                    "viz": false
-                  },
-                  "lineInterpolation": "smooth",
-                  "lineWidth": 2,
-                  "pointSize": 6,
-                  "scaleDistribution": {
-                    "type": "linear"
-                  },
-                  "showPoints": "always",
-                  "spanNulls": false,
-                  "stacking": {
-                    "group": "A",
-                    "mode": "none"
-                  },
-                  "thresholdsStyle": {
-                    "mode": "off"
-                  }
-                },
-                "mappings": [],
-                "thresholds": {
-                  "mode": "absolute",
-                  "steps": [
-                    {
-                      "color": "green",
-                      "value": null
-                    },
-                    {
-                      "color": "red",
-                      "value": 80
-                    }
-                  ]
-                },
-                "unit": "ms"
-              },
-              "overrides": [
-                {
-                  "matcher": {
-                    "id": "byName",
-                    "options": "95 perc"
-                  },
-                  "properties": [
-                    {
-                      "id": "color",
-                      "value": {
-                        "fixedColor": "#F9934E",
-                        "mode": "fixed"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "matcher": {
-                    "id": "byName",
-                    "options": "99 perc"
-                  },
-                  "properties": [
-                    {
-                      "id": "color",
-                      "value": {
-                        "fixedColor": "#E24D42",
-                        "mode": "fixed"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "matcher": {
-                    "id": "byName",
-                    "options": "Max"
-                  },
-                  "properties": [
-                    {
-                      "id": "color",
-                      "value": {
-                        "fixedColor": "#BF1B00",
-                        "mode": "fixed"
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            "links": [],
-            "options": {
-              "legend": {
-                "calcs": [
-                  "mean",
-                  "max",
-                  "min"
-                ],
-                "displayMode": "table",
-                "placement": "right",
-                "showLegend": true
-              },
-              "tooltip": {
-                "mode": "multi",
-                "sort": "none"
-              }
-            },
-            "pluginVersion": "8.5.4",
-            "targets": [
-              {
-                "alias": "$tag_requestName",
-                "datasource": {
-                  "type": "influxdb",
-                  "name": "InfluxDB_v2_Flux"
-                },
-                "groupBy": [
-                  {
-                    "params": [
-                      "$__interval"
-                    ],
-                    "type": "time"
-                  },
-                  {
-                    "params": [
-                      "requestName"
-                    ],
-                    "type": "tag"
-                  },
-                  {
-                    "params": [
-                      "null"
-                    ],
-                    "type": "fill"
-                  }
-                ],
-                "measurement": "requestsRaw",
-                "orderByTime": "ASC",
-                "policy": "autogen",
-                "query": "from(bucket: v.bucket)\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"requestsRaw\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"processingTime\")\r\n  |> filter(fn: (r) => r[\"runId\"] =~ /${runId:regex}/)\r\n  |> filter(fn: (r) => r[\"samplerType\"] =~ /${samplerType:regex}/)\r\n  |> group (columns: [\"requestName\"])\r\n  |> aggregateWindow(every: [[aggregation]]s, fn: mean, createEmpty: false)",
-                "rawQuery": true,
-                "refId": "D",
-                "resultFormat": "time_series",
-                "select": [
-                  [
-                    {
-                      "params": [
-                        "latency"
-                      ],
-                      "type": "field"
-                    },
-                    {
-                      "params": [],
-                      "type": "mean"
-                    }
-                  ]
-                ],
-                "tags": []
-              }
-            ],
-            "title": "Porcessing Time = Latency - Connect Time ",
-            "transformations": [],
-            "type": "timeseries"
-          }
-        }
-      },
-      "__requires": [
-        {
-          "type": "panel",
-          "id": "bargauge",
-          "name": "Bar gauge",
-          "version": ""
-        },
-        {
-          "type": "panel",
-          "id": "gauge",
-          "name": "Gauge",
-          "version": ""
-        },
-        {
-          "type": "grafana",
-          "id": "grafana",
-          "name": "Grafana",
-          "version": "9.1.6"
-        },
-        {
-          "type": "datasource",
-          "id": "influxdb",
-          "name": "InfluxDB",
-          "version": "1.0.0"
-        },
-        {
-          "type": "panel",
-          "id": "piechart",
-          "name": "Pie chart",
-          "version": ""
-        },
-        {
-          "type": "panel",
-          "id": "stat",
-          "name": "Stat",
-          "version": ""
-        },
-        {
-          "type": "panel",
-          "id": "table",
-          "name": "Table",
-          "version": ""
-        },
-        {
-          "type": "panel",
-          "id": "text",
-          "name": "Text",
-          "version": ""
-        },
-        {
-          "type": "panel",
-          "id": "timeseries",
-          "name": "Time series",
-          "version": ""
-        }
-      ],
       "annotations": {
         "list": [
           {
@@ -318,7 +67,7 @@ data:
       "fiscalYearStartMonth": 0,
       "gnetId": 13644,
       "graphTooltip": 1,
-      "id": null,
+      "id": 2,
       "links": [],
       "liveNow": false,
       "panels": [
@@ -403,7 +152,7 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.1.6",
+          "pluginVersion": "9.3.1",
           "targets": [
             {
               "datasource": {
@@ -500,7 +249,7 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.1.6",
+          "pluginVersion": "9.3.1",
           "targets": [
             {
               "datasource": {
@@ -599,7 +348,7 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.1.6",
+          "pluginVersion": "9.3.1",
           "targets": [
             {
               "datasource": {
@@ -711,7 +460,7 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.1.6",
+          "pluginVersion": "9.3.1",
           "targets": [
             {
               "datasource": {
@@ -825,7 +574,7 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.1.6",
+          "pluginVersion": "9.3.1",
           "targets": [
             {
               "datasource": {
@@ -924,7 +673,7 @@ data:
             },
             "textMode": "auto"
           },
-          "pluginVersion": "9.1.6",
+          "pluginVersion": "9.3.1",
           "targets": [
             {
               "datasource": {
@@ -1024,7 +773,7 @@ data:
             "showThresholdMarkers": true,
             "text": {}
           },
-          "pluginVersion": "9.1.6",
+          "pluginVersion": "9.3.1",
           "targets": [
             {
               "datasource": {
@@ -1122,7 +871,7 @@ data:
             "showThresholdMarkers": true,
             "text": {}
           },
-          "pluginVersion": "9.1.6",
+          "pluginVersion": "9.3.1",
           "targets": [
             {
               "datasource": {
@@ -3405,8 +3154,7 @@ data:
                 "mode": "absolute",
                 "steps": [
                   {
-                    "color": "rgba(50, 172, 45, 0.97)",
-                    "value": null
+                    "color": "rgba(50, 172, 45, 0.97)"
                   },
                   {
                     "color": "rgba(237, 129, 40, 0.89)",
@@ -3448,8 +3196,7 @@ data:
                       "mode": "absolute",
                       "steps": [
                         {
-                          "color": "rgba(0, 0, 0, 0)",
-                          "value": null
+                          "color": "rgba(0, 0, 0, 0)"
                         },
                         {
                           "color": "rgba(183, 84, 26, 0.89)",
@@ -3727,8 +3474,7 @@ data:
                 "mode": "absolute",
                 "steps": [
                   {
-                    "color": "green",
-                    "value": null
+                    "color": "green"
                   },
                   {
                     "color": "red",
@@ -3798,8 +3544,7 @@ data:
                 "mode": "absolute",
                 "steps": [
                   {
-                    "color": "green",
-                    "value": null
+                    "color": "green"
                   },
                   {
                     "color": "red",
@@ -3894,8 +3639,7 @@ data:
                 "mode": "absolute",
                 "steps": [
                   {
-                    "color": "green",
-                    "value": null
+                    "color": "green"
                   }
                 ]
               },
@@ -3929,8 +3673,7 @@ data:
                       "mode": "absolute",
                       "steps": [
                         {
-                          "color": "green",
-                          "value": null
+                          "color": "green"
                         },
                         {
                           "color": "#1F78C1",
@@ -4547,8 +4290,7 @@ data:
                     "mode": "absolute",
                     "steps": [
                       {
-                        "color": "green",
-                        "value": null
+                        "color": "green"
                       }
                     ]
                   },
@@ -4582,8 +4324,7 @@ data:
                           "mode": "absolute",
                           "steps": [
                             {
-                              "color": "green",
-                              "value": null
+                              "color": "green"
                             },
                             {
                               "color": "#1F78C1",
@@ -5229,8 +4970,7 @@ data:
                     "mode": "absolute",
                     "steps": [
                       {
-                        "color": "green",
-                        "value": null
+                        "color": "green"
                       },
                       {
                         "color": "red",
@@ -5408,8 +5148,7 @@ data:
                     "mode": "absolute",
                     "steps": [
                       {
-                        "color": "green",
-                        "value": null
+                        "color": "green"
                       },
                       {
                         "color": "red",
@@ -5606,8 +5345,7 @@ data:
                     "mode": "absolute",
                     "steps": [
                       {
-                        "color": "green",
-                        "value": null
+                        "color": "green"
                       },
                       {
                         "color": "red",
@@ -5790,8 +5528,7 @@ data:
                     "mode": "absolute",
                     "steps": [
                       {
-                        "color": "green",
-                        "value": null
+                        "color": "green"
                       },
                       {
                         "color": "red",
@@ -5975,8 +5712,7 @@ data:
                     "mode": "absolute",
                     "steps": [
                       {
-                        "color": "green",
-                        "value": null
+                        "color": "green"
                       },
                       {
                         "color": "red",
@@ -6175,8 +5911,7 @@ data:
                     "mode": "absolute",
                     "steps": [
                       {
-                        "color": "green",
-                        "value": null
+                        "color": "green"
                       },
                       {
                         "color": "red",
@@ -6319,8 +6054,7 @@ data:
                     "mode": "absolute",
                     "steps": [
                       {
-                        "color": "green",
-                        "value": null
+                        "color": "green"
                       },
                       {
                         "color": "red",
@@ -6464,8 +6198,7 @@ data:
                     "mode": "absolute",
                     "steps": [
                       {
-                        "color": "green",
-                        "value": null
+                        "color": "green"
                       },
                       {
                         "color": "red",
@@ -6718,8 +6451,7 @@ data:
                 "mode": "absolute",
                 "steps": [
                   {
-                    "color": "green",
-                    "value": null
+                    "color": "green"
                   },
                   {
                     "color": "red",
@@ -7050,8 +6782,7 @@ data:
                 "mode": "absolute",
                 "steps": [
                   {
-                    "color": "green",
-                    "value": null
+                    "color": "green"
                   },
                   {
                     "color": "red",
@@ -7190,8 +6921,7 @@ data:
                 "mode": "absolute",
                 "steps": [
                   {
-                    "color": "green",
-                    "value": null
+                    "color": "green"
                   },
                   {
                     "color": "red",
@@ -7363,7 +7093,11 @@ data:
       "templating": {
         "list": [
           {
-            "current": {},
+            "current": {
+              "selected": false,
+              "text": "auth token-int1",
+              "value": "auth token-int1"
+            },
             "datasource": {
               "type": "influxdb",
               "name": "InfluxDB_v2_Flux"
@@ -7440,7 +7174,11 @@ data:
           },
           {
             "allValue": "",
-            "current": {},
+            "current": {
+              "selected": false,
+              "text": "All",
+              "value": "$__all"
+            },
             "datasource": {
               "type": "influxdb",
               "name": "InfluxDB_v2_Flux"
@@ -7462,7 +7200,11 @@ data:
           },
           {
             "allValue": "",
-            "current": {},
+            "current": {
+              "selected": false,
+              "text": "All",
+              "value": "$__all"
+            },
             "datasource": {
               "type": "influxdb",
               "name": "InfluxDB_v2_Flux"
@@ -7485,7 +7227,7 @@ data:
         ]
       },
       "time": {
-        "from": "now-5m",
+        "from": "now-1y",
         "to": "now"
       },
       "timepicker": {
@@ -7516,7 +7258,7 @@ data:
       "timezone": "browser",
       "title": "JMeter Load Test (org.md.jmeter.influxdb2.visualizer) - influxdb v2.0 (Flux)",
       "uid": "b4kP_KoMzasadasdasd",
-      "version": 49,
+      "version": 2,
       "weekStart": ""
     }
   provisioning-dashboard-provider.yaml: |-
@@ -7546,75 +7288,23 @@ data:
         secureJsonData:
           token: FuncTestToken
   provisioning-ldap.toml: |-
-    # To troubleshoot and get more log info enable ldap debug logging in grafana.ini
-    # [log]
-    # filters = ldap:debug
-
     [[servers]]
-    # Ldap server host (specify multiple hosts space separated)
     host = "127.0.0.1"
-    # Default port is 389 or 636 if use_ssl = true
     port = 389
-    # Set to true if LDAP server should use an encrypted TLS connection (either with STARTTLS or LDAPS)
     use_ssl = false
-    # If set to true, use LDAP with STARTTLS instead of LDAPS
     start_tls = false
-    # set to true if you want to skip ssl cert validation
-    ssl_skip_verify = false
-    # set to the path to your root CA certificate or leave unset to use system defaults
-    # root_ca_cert = "/path/to/certificate.crt"
-    # Authentication against LDAP servers requiring client certificates
-    # client_cert = "/path/to/client.crt"
-    # client_key = "/path/to/client.key"
-
-    # Search user bind dn
-    bind_dn = "cn=admin,dc=grafana,dc=org"
-    # Search user bind password
-    # If the password contains # or ; you have to wrap it with triple quotes. Ex """#password;"""
-    bind_password = 'grafana'
-    # We recommend using variable expansion for the bind_password, for more info https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#variable-expansion
-    # bind_password = '$__env{LDAP_BIND_PASSWORD}'
-
-    # Timeout in seconds (applies to each host specified in the 'host' entry (space separated))
-    timeout = 10
-
-    # User search filter, for example "(cn=%s)" or "(sAMAccountName=%s)" or "(uid=%s)"
+    ssl_skip_verify = true
+    bind_dn = "cn=admin,dc=mycompany,dc=org"
+    bind_password = '$__env{LDAP_BIND_PW}'
     search_filter = "(cn=%s)"
+    search_base_dns = ["ou=Users,dc=mycompany,dc=org"]
 
-    # An array of base dns to search through
-    search_base_dns = ["dc=grafana,dc=org"]
-
-    ## For Posix or LDAP setups that does not support member_of attribute you can define the below settings
-    ## Please check grafana LDAP docs for examples
-    # group_search_filter = "(&(objectClass=posixGroup)(memberUid=%s))"
-    # group_search_base_dns = ["ou=groups,dc=grafana,dc=org"]
-    # group_search_filter_user_attribute = "uid"
-
-    # Specify names of the ldap attributes your ldap uses
     [servers.attributes]
     name = "givenName"
     surname = "sn"
     username = "cn"
     member_of = "memberOf"
     email =  "email"
-
-    # Map ldap groups to grafana org roles
-    [[servers.group_mappings]]
-    group_dn = "cn=admins,ou=groups,dc=grafana,dc=org"
-    org_role = "Admin"
-    # To make user an instance admin  (Grafana Admin) uncomment line below
-    # grafana_admin = true
-    # The Grafana organization database id, optional, if left out the default org (id 1) will be used
-    # org_id = 1
-
-    [[servers.group_mappings]]
-    group_dn = "cn=editors,ou=groups,dc=grafana,dc=org"
-    org_role = "Editor"
-
-    [[servers.group_mappings]]
-    # If you want to match all (or no ldap groups) then you can use wildcard
-    group_dn = "*"
-    org_role = "Viewer"
 kind: ConfigMap
 metadata:
   name: grafana-config
