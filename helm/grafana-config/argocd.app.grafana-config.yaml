@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    path: /helm/grafana-config
+    path: helm/grafana-config
     repoURL: https://github.com/helloyuanyuan/argocd-apps.git
     targetRevision: main
   destination:
