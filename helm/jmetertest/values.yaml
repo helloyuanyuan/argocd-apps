@@ -8,4 +8,4 @@ initContainers:
     repository: helloyuanyuan/jmetertestscript
     tag: latest
 
-scriptName: sample1.jmx
+scriptName: sample.jmx
