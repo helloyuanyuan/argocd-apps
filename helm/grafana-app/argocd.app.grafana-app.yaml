@@ -18,7 +18,7 @@ spec:
     targetRevision: 6.46.1
     chart: grafana
     helm:
-      values: |-
+      values: >
         adminUser: admin
         adminPassword: "@dmin123"
 
@@ -89,7 +89,16 @@ spec:
             readOnly: false
             subPath: dashboard-provider.yaml
 
-          - name: dashboards
-            mountPath: /var/lib/grafana/dashboards
+          - name: dashboard-globalinpart
+            mountPath: /var/lib/grafana/dashboards/dashboard-globalinpart.json
             configMap: grafana-config-dashboards
             readOnly: false
+            subPath: dashboard-globalinpart.json
+
+          - name: dashboard-qapter
+            mountPath: /var/lib/grafana/dashboards/dashboard-qapter.json
+            configMap: grafana-config-dashboards
+            readOnly: false
+            subPath: dashboard-qapter.json
+
+
