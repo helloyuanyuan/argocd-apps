@@ -11,4 +11,4 @@ spec:
     - ReadWriteMany
   nfs:
     server: nas-ds718
-    path: "/volume1/nfs/busybox/data"
+    path: "/volume1/nfs"
