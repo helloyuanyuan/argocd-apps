@@ -1,0 +1,74 @@
+adminUser: admin
+adminPassword: "@dmin123"
+
+envRenderSecret:
+  LDAP_BIND_PW: "xUB=RDZmT69vk4;tr*3z{{n/"
+
+ingress:
+  enabled: true
+  ingressClassName: nginx
+  path: /
+  pathType: Prefix
+  hosts:
+    - argocd.app.grafana.localdev.me
+
+resources:
+  requests:
+    cpu: 200m
+    memory: 256Mi
+  limits:
+    cpu: 1000m
+    memory: 1024Mi
+
+downloadDashboards:
+  resources:
+    limits:
+      cpu: 200m
+      memory: 256Mi
+    requests:
+      cpu: 200m
+      memory: 256Mi
+
+grafana.ini:
+  paths:
+    data: /var/lib/grafana/
+    logs: /var/log/grafana
+    plugins: /var/lib/grafana/plugins
+    provisioning: /etc/grafana/provisioning
+  analytics:
+    check_for_updates: true
+  log:
+    mode: console
+  grafana_net:
+    url: https://grafana.net
+  server:
+    domain: "{{ if (and .Values.ingress.enabled .Values.ingress.hosts) }}{{ .Values.ingress.hosts | first }}{{ else }}''{{ end }}"
+  auth.ldap:
+    enabled: true
+    allow_sign_up: true
+    skip_org_role_syne: true
+    config_file: /etc/grafana/ldap.toml
+
+extraConfigmapMounts:
+  - name: ldap
+    mountPath: /etc/grafana/ldap.toml
+    configMap: grafana-config
+    readOnly: false
+    subPath: ldap.toml
+
+  - name: datasource-influxdb
+    mountPath: /etc/grafana/provisioning/datasources/datasource-influxdb.yaml
+    configMap: grafana-config
+    readOnly: false
+    subPath: datasource-influxdb.yaml
+
+  - name: dashboard-provider
+    mountPath: /etc/grafana/provisioning/dashboards/dashboard-provider.yaml
+    configMap: grafana-config
+    readOnly: false
+    subPath: dashboard-provider.yaml
+
+  - name: dashboards
+    mountPath: /var/lib/grafana/dashboards
+    configMap: grafana-config-dashboards
+    readOnly: false

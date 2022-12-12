@@ -1,0 +1,24 @@
+apiVersion: 1
+datasources:
+  - name: globalinpart
+    type: influxdb
+    access: proxy
+    url: http://10.0.0.16:8086
+    jsonData:
+      version: Flux
+      organization: FuncTestOrg
+      defaultBucket: GlobalInpart
+      tlsSkipVerify: true
+    secureJsonData:
+      token: FuncTestToken
+  - name: qapter
+    type: influxdb
+    access: proxy
+    url: http://10.0.0.16:8086
+    jsonData:
+      version: Flux
+      organization: FuncTestOrg
+      defaultBucket: Qapter
+      tlsSkipVerify: true
+    secureJsonData:
+      token: FuncTestToken
