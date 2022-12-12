@@ -19,11 +19,11 @@ spec:
           image: busybox
           resources:
             limits:
-              memory: "1Gi"
-              cpu: "1000m"
+              cpu: 200m
+              memory: 256Mi
             requests:
-              memory: "500M"
-              cpu: "500m"
+              cpu: 200m
+              memory: 256Mi
           command: ["sh", "-c", 'echo "Hello, Kubernetes!" && sleep infinity']
           volumeMounts:
             - name: nfs

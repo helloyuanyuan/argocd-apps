@@ -13,7 +13,14 @@ spec:
         app: hellodemo
     spec:
       containers:
-      - image: ikubernetes/demoapp:v1.0
-        name: hellodemo
-        ports:
-        - containerPort: 80
+        - image: ikubernetes/demoapp:v1.0
+          name: hellodemo
+          ports:
+            - containerPort: 80
+          resources:
+            limits:
+              cpu: 200m
+              memory: 256Mi
+            requests:
+              cpu: 200m
+              memory: 256Mi
