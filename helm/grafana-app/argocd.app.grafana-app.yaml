@@ -18,7 +18,7 @@ spec:
     targetRevision: 6.46.1
     chart: grafana
     helm:
-      values: |
+      values: |-
         adminUser: admin
         adminPassword: "@dmin123"
 
