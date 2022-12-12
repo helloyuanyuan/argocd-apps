@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: grafana-multiple-dashboards
+  namespace: argocd
+spec:
+  project: default
+  destination:
+    namespace: argocd-apps
+    server: "https://kubernetes.default.svc"
+  syncPolicy:
+    automated: {}
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+  source:
+    repoURL: "https://grafana.github.io/helm-charts/"
+    targetRevision: 6.46.1
+    chart: grafana/grafana
+    helm:
+      values: >
