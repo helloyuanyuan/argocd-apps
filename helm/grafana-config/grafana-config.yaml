@@ -15,7 +15,7 @@ data:
   datasource-influxdb.yaml: |
     apiVersion: 1
     datasources:
-      - name: default
+      - name: InfluxDB_v2_Flux
         type: influxdb
         access: proxy
         url: http://10.0.0.16:8086
