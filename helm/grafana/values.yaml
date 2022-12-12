@@ -1,6 +1,7 @@
+adminUser: admin
+adminPassword: QGRtaW4xMjM=
+
 envRenderSecret:
-  GF_SECURITY_ADMIN_USER: YWRtaW4=
-  GF_SECURITY_ADMIN_PASSWORD: QGRtaW4xMjM=
   LDAP_BIND_PW: "xUB=RDZmT69vk4;tr*3z{{n/"
 
 ingress:
