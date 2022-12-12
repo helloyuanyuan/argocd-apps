@@ -1,5 +1,5 @@
 adminUser: admin
-adminPassword: QGRtaW4xMjM=
+adminPassword: '@dmin123'
 
 envRenderSecret:
   LDAP_BIND_PW: "xUB=RDZmT69vk4;tr*3z{{n/"
@@ -7291,7 +7291,7 @@ dashboards:
             ]
           },
           "time": {
-            "from": "now-1y",
+            "from": "now-24h",
             "to": "now"
           },
           "timepicker": {
