@@ -18,7 +18,7 @@ spec:
     targetRevision: 6.46.1
     chart: grafana
     helm:
-      values: >
+      values: |
         adminUser: admin
         adminPassword: "@dmin123"
 
@@ -60,8 +60,6 @@ spec:
             check_for_updates: true
           log:
             mode: console
-          grafana_net:
-            url: https://grafana.net
           server:
             domain: "{{ if (and .Values.ingress.enabled .Values.ingress.hosts) }}{{ .Values.ingress.hosts | first }}{{ else }}''{{ end }}"
           auth.ldap:
@@ -89,16 +87,5 @@ spec:
             readOnly: false
             subPath: dashboard-provider.yaml
 
-          - name: dashboard-globalinpart
-            mountPath: /var/lib/grafana/dashboards/dashboard-globalinpart.json
-            configMap: grafana-config-dashboards
-            readOnly: false
-            subPath: dashboard-globalinpart.json
-
-          - name: dashboard-qapter
-            mountPath: /var/lib/grafana/dashboards/dashboard-qapter.json
-            configMap: grafana-config-dashboards
-            readOnly: false
-            subPath: dashboard-qapter.json
-
-
+        dashboardsConfigMaps:
+          default: grafana-config-dashboards
