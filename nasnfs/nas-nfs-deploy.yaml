@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: busybox
+  name: nasnfs
   labels:
-    app: busybox
+    app: nasnfs
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: busybox
+      app: nasnfs
   template:
     metadata:
       labels:
-        app: busybox
+        app: nasnfs
     spec:
       containers:
-        - name: busybox
+        - name: nasnfs
           image: busybox
           resources:
             limits:
@@ -26,9 +26,9 @@ spec:
               memory: 256Mi
           command: ["sh", "-c", 'echo "Hello, Kubernetes!" && sleep infinity']
           volumeMounts:
-            - name: nfs
+            - name: nas-nfs
               mountPath: /data
       volumes:
-        - name: nfs
+        - name: nas-nfs
           persistentVolumeClaim:
             claimName: nas-nfs-pvc

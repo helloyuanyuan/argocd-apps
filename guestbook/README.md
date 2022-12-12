@@ -17,6 +17,18 @@ argocd app create guestbook \
   --dest-namespace argocd-apps
 ~~~
 
+Or
+
+~~~bash
+argocd app create -f argocd.app.guestbook.yaml
+~~~
+
+Or
+
+~~~bash
+kubectl create -f argocd.app.guestbook.yaml
+~~~
+
 ### 3. View created ArgoCD app status
 
 ~~~bash

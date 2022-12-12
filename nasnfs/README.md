@@ -11,23 +11,23 @@ kubectl create ns argocd-apps
 ### 2. Create ArgoCD app via CLI
 
 ~~~bash
-argocd app create -f argocd.app.grafana.yaml
+argocd app create -f argocd.app.nasnfs.yaml
 ~~~
 
 Or
 
 ~~~bash
-kubectl create -f argocd.app.grafana.yaml
+kubectl create -f argocd.app.nasnfs.yaml
 ~~~
 
 ### 3. View created ArgoCD app status
 
 ~~~bash
-argocd app get grafana
+argocd app get nasnfs
 ~~~
 
 ### 4. Sync ArgoCD app via CLI
 
 ~~~bash
-argocd app sync grafana
+argocd app sync nasnfs
 ~~~

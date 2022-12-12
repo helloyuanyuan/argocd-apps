@@ -17,6 +17,18 @@ argocd app create hellodemo \
   --dest-namespace argocd-apps
 ~~~
 
+Or
+
+~~~bash
+argocd app create -f argocd.app.hellodemo.yaml
+~~~
+
+Or
+
+~~~bash
+kubectl create -f argocd.app.hellodemo.yaml
+~~~
+
 ### 3. View created ArgoCD app status
 
 ~~~bash
