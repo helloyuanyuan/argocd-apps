@@ -4,8 +4,8 @@
       {
         "builtIn": 1,
         "datasource": {
-          "type": "datasource",
-          "uid": "grafana"
+          "type": "influxdb",
+          "name": "InfluxDB_v2_Flux"
         },
         "enable": true,
         "hide": true,
@@ -72,7 +72,7 @@
       "collapsed": false,
       "datasource": {
         "type": "influxdb",
-        "uid": "UgPq-YFnk"
+        "name": "InfluxDB_v2_Flux"
       },
       "gridPos": {
         "h": 1,
@@ -904,7 +904,7 @@
       "collapsed": false,
       "datasource": {
         "type": "influxdb",
-        "uid": "UgPq-YFnk"
+        "name": "InfluxDB_v2_Flux"
       },
       "gridPos": {
         "h": 1,
@@ -2104,7 +2104,7 @@
       "collapsed": false,
       "datasource": {
         "type": "influxdb",
-        "uid": "UgPq-YFnk"
+        "name": "InfluxDB_v2_Flux"
       },
       "gridPos": {
         "h": 1,
@@ -3599,7 +3599,7 @@
       "collapsed": false,
       "datasource": {
         "type": "influxdb",
-        "uid": "UgPq-YFnk"
+        "name": "InfluxDB_v2_Flux"
       },
       "gridPos": {
         "h": 1,
@@ -4938,7 +4938,7 @@
       "collapsed": true,
       "datasource": {
         "type": "influxdb",
-        "uid": "UgPq-YFnk"
+        "name": "InfluxDB_v2_Flux"
       },
       "gridPos": {
         "h": 1,
@@ -5115,7 +5115,7 @@
       "collapsed": true,
       "datasource": {
         "type": "influxdb",
-        "uid": "UgPq-YFnk"
+        "name": "InfluxDB_v2_Flux"
       },
       "gridPos": {
         "h": 1,
@@ -5287,7 +5287,7 @@
       "collapsed": true,
       "datasource": {
         "type": "influxdb",
-        "uid": "UgPq-YFnk"
+        "name": "InfluxDB_v2_Flux"
       },
       "gridPos": {
         "h": 1,
@@ -6389,7 +6389,7 @@
       "collapsed": false,
       "datasource": {
         "type": "influxdb",
-        "uid": "UgPq-YFnk"
+        "name": "InfluxDB_v2_Flux"
       },
       "gridPos": {
         "h": 1,
@@ -7253,8 +7253,8 @@
     ]
   },
   "timezone": "browser",
-  "title": "JMeter Load Test (org.md.jmeter.influxdb2.visualizer) - influxdb v2.0 (Flux)",
-  "uid": "b4kP_KoMzasadasdasd",
-  "version": 2,
+  "title": "JMeter Load Test - Default",
+  "uid": "default",
+  "version": 1,
   "weekStart": ""
 }
