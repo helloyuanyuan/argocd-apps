@@ -115,42 +115,20 @@ dashboardProviders:
     providers:
       - name: "default"
         orgId: 1
-        folder: "Default"
+        folder: ""
         type: file
         disableDeletion: false
         updateIntervalSeconds: 10
         allowUiUpdates: true
         editable: true
         options:
-          path: /var/lib/grafana/dashboards/default
-      - name: "globalinpart"
-        orgId: 1
-        folder: "Globalinpart"
-        type: file
-        disableDeletion: false
-        updateIntervalSeconds: 10
-        allowUiUpdates: true
-        editable: true
-        options:
-          path: /var/lib/grafana/dashboards/globalinpart
-      - name: "qapter"
-        orgId: 1
-        folder: "Qapter"
-        type: file
-        disableDeletion: false
-        updateIntervalSeconds: 10
-        allowUiUpdates: true
-        editable: true
-        options:
-          path: /var/lib/grafana/dashboards/qapter
+          path: /var/lib/grafana/dashboards
 
 dashboards:
   default:
     dashboard-default:
       url: https://raw.githubusercontent.com/helloyuanyuan/argocd-apps/main/helm/grafana-dashboards/dashboard-default.json
-  globalinpart:
     dashboard-globalinpart:
       url: https://raw.githubusercontent.com/helloyuanyuan/argocd-apps/main/helm/grafana-dashboards/dashboard-globalinpart.json
-  qapter:
     dashboard-qapter:
       url: https://raw.githubusercontent.com/helloyuanyuan/argocd-apps/main/helm/grafana-dashboards/dashboard-qapter.json
