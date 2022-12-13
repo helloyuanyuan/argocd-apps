@@ -4,8 +4,8 @@
       {
         "builtIn": 1,
         "datasource": {
-          "type": "influxdb",
-          "name": "InfluxDB_v2_Flux"
+          "type": "datasource",
+          "uid": "grafana"
         },
         "enable": true,
         "hide": true,
@@ -22,7 +22,7 @@
       {
         "datasource": {
           "type": "influxdb",
-          "name": "InfluxDB_v2_Flux"
+          "uid": "P2081FF544FC74280"
         },
         "enable": true,
         "hide": false,
@@ -44,7 +44,7 @@
       {
         "datasource": {
           "type": "influxdb",
-          "name": "InfluxDB_v2_Flux"
+          "uid": "P2081FF544FC74280"
         },
         "enable": true,
         "iconColor": "rgba(255, 96, 96, 1)",
@@ -64,7 +64,7 @@
   "fiscalYearStartMonth": 0,
   "gnetId": 13644,
   "graphTooltip": 1,
-  "id": 2,
+  "id": 4,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -72,7 +72,7 @@
       "collapsed": false,
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "UgPq-YFnk"
       },
       "gridPos": {
         "h": 1,
@@ -88,7 +88,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "description": "",
       "fieldConfig": {
@@ -154,7 +154,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [],
@@ -185,7 +185,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "fieldConfig": {
         "defaults": {
@@ -251,7 +251,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [],
@@ -283,7 +283,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "description": "",
       "fieldConfig": {
@@ -350,7 +350,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -396,7 +396,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "fieldConfig": {
         "defaults": {
@@ -462,7 +462,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -510,7 +510,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "fieldConfig": {
         "defaults": {
@@ -576,7 +576,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [],
@@ -607,7 +607,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "fieldConfig": {
         "defaults": {
@@ -675,7 +675,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [],
@@ -706,7 +706,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "description": "",
       "fieldConfig": {
@@ -775,7 +775,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [],
@@ -805,7 +805,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "fieldConfig": {
         "defaults": {
@@ -873,7 +873,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [],
@@ -904,7 +904,7 @@
       "collapsed": false,
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "UgPq-YFnk"
       },
       "gridPos": {
         "h": 1,
@@ -920,7 +920,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "description": "Throughput is calculated as requests/unit of time. Shows overall throughput.",
       "fieldConfig": {
@@ -1047,7 +1047,7 @@
           "alias": "Throughput",
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [
@@ -1091,7 +1091,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -1136,7 +1136,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "description": "",
       "fieldConfig": {
@@ -1251,7 +1251,7 @@
           "alias": "Throughput",
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [
@@ -1295,7 +1295,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -1340,7 +1340,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "description": "",
       "fieldConfig": {
@@ -1467,7 +1467,7 @@
           "alias": "Throughput",
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [
@@ -1511,7 +1511,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -1556,7 +1556,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "description": "",
       "fieldConfig": {
@@ -1671,7 +1671,7 @@
           "alias": "Throughput",
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [
@@ -1715,7 +1715,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -1760,7 +1760,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "description": "",
       "fieldConfig": {
@@ -1803,8 +1803,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -1875,7 +1874,7 @@
           "alias": "Throughput",
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [
@@ -1919,7 +1918,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -1964,7 +1963,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "description": "",
       "fieldConfig": {
@@ -2007,8 +2006,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -2050,7 +2048,7 @@
           "alias": "$tag_responseCode",
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [
@@ -2104,7 +2102,7 @@
       "collapsed": false,
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "UgPq-YFnk"
       },
       "gridPos": {
         "h": 1,
@@ -2120,7 +2118,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "fieldConfig": {
         "defaults": {
@@ -2162,8 +2160,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -2279,7 +2276,7 @@
           "alias": "$tag_requestName",
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [
@@ -2328,7 +2325,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -2372,7 +2369,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "fieldConfig": {
         "defaults": {
@@ -2414,8 +2411,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -2531,7 +2527,7 @@
           "alias": "$tag_requestName",
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [
@@ -2580,7 +2576,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -2624,7 +2620,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "fieldConfig": {
         "defaults": {
@@ -2666,8 +2662,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -2783,7 +2778,7 @@
           "alias": "$tag_requestName",
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [
@@ -2832,7 +2827,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -2876,7 +2871,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "fieldConfig": {
         "defaults": {
@@ -2918,8 +2913,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -3035,7 +3029,7 @@
           "alias": "$tag_requestName",
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [
@@ -3084,7 +3078,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -3128,7 +3122,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "description": "",
       "fieldConfig": {
@@ -3245,7 +3239,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -3285,7 +3279,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -3325,7 +3319,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -3365,7 +3359,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -3405,7 +3399,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -3458,7 +3452,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "description": "",
       "fieldConfig": {
@@ -3514,7 +3508,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "hide": false,
           "query": "from(bucket: v.bucket)\r\n   |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"requestsRaw\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"responseTime\")\r\n  |> filter(fn: (r) => r[\"runId\"] =~ /${runId:regex}/)\r\n  |> filter(fn: (r) => r[\"samplerType\"] =~ /${samplerType:regex}/)\r\n  |> group(columns: [\"requestName\"])\r\n  |> toFloat()\r\n  |> quantile(q: 0.90)\r\n  |> group(columns: [\"requestName\"])\r\n  |> keep(columns: [ \"_value\", \"requestName\"])\r\n  |> rename(columns: {_value: \"request\"})\r\n\r\n",
@@ -3528,7 +3522,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "description": "",
       "fieldConfig": {
@@ -3584,7 +3578,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "hide": false,
           "query": "from(bucket: v.bucket)\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"requestsRaw\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"responseTime\")\r\n  |> filter(fn: (r) => r[\"runId\"] =~ /${runId:regex}/)\r\n  |> filter(fn: (r) => r[\"samplerType\"] =~ /${samplerType:regex}/)\r\n  |> group(columns: [\"requestName\"])\r\n  |> toFloat()\r\n  |> quantile(q: 0.95)\r\n  |> group(columns: [\"requestName\"])\r\n  |> keep(columns: [ \"_value\", \"requestName\"])\r\n  |> rename(columns: {_value: \"request\"})\r\n\r\n",
@@ -3599,7 +3593,7 @@
       "collapsed": false,
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "UgPq-YFnk"
       },
       "gridPos": {
         "h": 1,
@@ -3615,7 +3609,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "description": "",
       "fieldConfig": {
@@ -3846,7 +3840,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -3886,7 +3880,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -3926,7 +3920,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -3966,7 +3960,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -4006,7 +4000,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -4046,7 +4040,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -4086,7 +4080,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -4126,7 +4120,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -4166,7 +4160,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -4206,7 +4200,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -4266,7 +4260,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "description": "",
           "fieldConfig": {
@@ -4499,7 +4493,7 @@
             {
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -4539,7 +4533,7 @@
             {
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -4579,7 +4573,7 @@
             {
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -4619,7 +4613,7 @@
             {
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -4659,7 +4653,7 @@
             {
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -4699,7 +4693,7 @@
             {
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -4739,7 +4733,7 @@
             {
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -4779,7 +4773,7 @@
             {
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -4819,7 +4813,7 @@
             {
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -4859,7 +4853,7 @@
             {
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -4909,7 +4903,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "editable": true,
           "error": false,
@@ -4938,7 +4932,7 @@
       "collapsed": true,
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "UgPq-YFnk"
       },
       "gridPos": {
         "h": 1,
@@ -4951,7 +4945,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "description": "",
           "fieldConfig": {
@@ -5057,7 +5051,7 @@
             {
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -5115,7 +5109,7 @@
       "collapsed": true,
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "UgPq-YFnk"
       },
       "gridPos": {
         "h": 1,
@@ -5128,7 +5122,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "description": "",
           "fieldConfig": {
@@ -5237,7 +5231,7 @@
               "alias": "",
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -5287,7 +5281,7 @@
       "collapsed": true,
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "UgPq-YFnk"
       },
       "gridPos": {
         "h": 1,
@@ -5300,7 +5294,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "fieldConfig": {
             "defaults": {
@@ -5430,7 +5424,7 @@
               "alias": "$tag_requestName",
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -5483,7 +5477,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "fieldConfig": {
             "defaults": {
@@ -5613,7 +5607,7 @@
               "alias": "$tag_requestName",
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -5666,7 +5660,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "description": "",
           "fieldConfig": {
@@ -5751,7 +5745,7 @@
               "alias": "Sent Bytes",
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -5807,7 +5801,7 @@
               "alias": "Received Bytes",
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -5866,7 +5860,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "fieldConfig": {
             "defaults": {
@@ -5950,7 +5944,7 @@
               "alias": "$tag_requestName",
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -6009,7 +6003,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "fieldConfig": {
             "defaults": {
@@ -6093,7 +6087,7 @@
               "alias": "$tag_requestName",
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -6152,7 +6146,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "description": "",
           "fieldConfig": {
@@ -6307,7 +6301,7 @@
               "alias": "$tag_requestName",
               "datasource": {
                 "type": "influxdb",
-                "name": "InfluxDB_v2_Flux"
+                "uid": "P2081FF544FC74280"
               },
               "groupBy": [
                 {
@@ -6360,7 +6354,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "editable": true,
           "error": false,
@@ -6389,7 +6383,7 @@
       "collapsed": false,
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "UgPq-YFnk"
       },
       "gridPos": {
         "h": 1,
@@ -6405,7 +6399,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "description": "",
       "fieldConfig": {
@@ -6532,7 +6526,7 @@
           "alias": "Mean",
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [
@@ -6583,7 +6577,7 @@
           "alias": "90 perc",
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [
@@ -6636,7 +6630,7 @@
           "alias": "95 perc",
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [
@@ -6688,7 +6682,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "groupBy": [
             {
@@ -6733,7 +6727,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "description": "",
       "fieldConfig": {
@@ -6822,7 +6816,7 @@
           "alias": "Throughput",
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [
@@ -6875,7 +6869,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "fieldConfig": {
         "defaults": {
@@ -6962,7 +6956,7 @@
           "alias": "Errors per Second",
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "dsType": "influxdb",
           "groupBy": [
@@ -7015,7 +7009,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "name": "InfluxDB_v2_Flux"
+        "uid": "P2081FF544FC74280"
       },
       "description": "",
       "fieldConfig": {
@@ -7071,7 +7065,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "name": "InfluxDB_v2_Flux"
+            "uid": "P2081FF544FC74280"
           },
           "hide": false,
           "query": "from(bucket: v.bucket)\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"requestsRaw\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"count\")  \r\n  |> filter(fn: (r) => r[\"requestName\"] == \"${request}\")\r\n  |> filter(fn: (r) => r[\"runId\"] =~ /${runId:regex}/)\r\n  |> group(columns: [\"requestName\", \"responseCode\"])\r\n  |> toFloat()\r\n  |> sum()\r\n  |> keep(columns: [ \"requestName\", \"responseCode\", \"_value\"])\r\n  |> rename(columns: {_value: \"request\"})\r\n\r\n \r\n \r\n  ",
@@ -7092,12 +7086,12 @@
       {
         "current": {
           "selected": false,
-          "text": "auth token-int1",
-          "value": "auth token-int1"
+          "text": "Claim/Post",
+          "value": "Claim/Post"
         },
         "datasource": {
           "type": "influxdb",
-          "name": "InfluxDB_v2_Flux"
+          "uid": "P2081FF544FC74280"
         },
         "definition": "",
         "hide": 0,
@@ -7178,7 +7172,7 @@
         },
         "datasource": {
           "type": "influxdb",
-          "name": "InfluxDB_v2_Flux"
+          "uid": "P2081FF544FC74280"
         },
         "definition": "import \"influxdata/influxdb/schema\"\r\n\r\nschema.measurementTagValues(\r\n  bucket: v.bucket,\r\n  measurement: \"requestsRaw\",\r\n  tag: \"runId\"\r\n)",
         "description": "You can filter the data using run id",
@@ -7204,7 +7198,7 @@
         },
         "datasource": {
           "type": "influxdb",
-          "name": "InfluxDB_v2_Flux"
+          "uid": "P2081FF544FC74280"
         },
         "definition": "import \"influxdata/influxdb/schema\"\r\n\r\nschema.measurementTagValues(\r\n  bucket: v.bucket,\r\n  measurement: \"requestsRaw\",\r\n  tag: \"samplerType\"\r\n)",
         "description": "There is the possibility to filter the requests or transactions  ",
@@ -7224,7 +7218,7 @@
     ]
   },
   "time": {
-    "from": "now-24h",
+    "from": "now-12h",
     "to": "now"
   },
   "timepicker": {
@@ -7253,8 +7247,8 @@
     ]
   },
   "timezone": "browser",
-  "title": "JMeter Load Test - Default",
-  "uid": "default",
+  "title": "JMeter Load Test - FuncTestBucket",
+  "uid": "FuncTestBucket",
   "version": 1,
   "weekStart": ""
 }
