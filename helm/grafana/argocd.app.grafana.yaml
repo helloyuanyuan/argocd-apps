@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    path: helm/grafana-gitSubmodule/charts/charts/grafana
+    path: helm/grafana/charts/charts/grafana
     repoURL: https://github.com/helloyuanyuan/argocd-apps.git
     targetRevision: main
     helm:
