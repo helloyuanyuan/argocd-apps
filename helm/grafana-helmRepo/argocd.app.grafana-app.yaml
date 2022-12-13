@@ -1,0 +1,129 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: grafana-app
+  namespace: argocd
+spec:
+  project: default
+  destination:
+    namespace: argocd-apps
+    server: "https://kubernetes.default.svc"
+  syncPolicy:
+    automated: {}
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+  source:
+    repoURL: "https://grafana.github.io/helm-charts/"
+    targetRevision: 6.46.1
+    chart: grafana
+    helm:
+      values: |
+        adminUser: admin
+        adminPassword: "@dmin123"
+
+        envRenderSecret:
+          LDAP_BIND_PW: "xUB=RDZmT69vk4;tr*3z{{n/"
+
+        ldap:
+          enabled: true
+          config: |-
+            [[servers]]
+            host = "127.0.0.1"
+            port = 389
+            use_ssl = false
+            start_tls = false
+            ssl_skip_verify = true
+            bind_dn = "cn=admin,dc=mycompany,dc=org"
+            bind_password = '$__env{LDAP_BIND_PW}'
+            search_filter = "(cn=%s)"
+            search_base_dns = ["ou=Users,dc=mycompany,dc=org"]
+
+            [servers.attributes]
+            name = "givenName"
+            surname = "sn"
+            username = "cn"
+            member_of = "memberOf"
+            email =  "email"
+
+        grafana.ini:
+          paths:
+            data: /var/lib/grafana/
+            logs: /var/log/grafana
+            plugins: /var/lib/grafana/plugins
+            provisioning: /etc/grafana/provisioning
+          analytics:
+            check_for_updates: true
+          log:
+            mode: console
+          grafana_net:
+            url: https://grafana.net
+          server:
+            domain: "{{ if (and .Values.ingress.enabled .Values.ingress.hosts) }}{{ .Values.ingress.hosts | first }}{{ else }}''{{ end }}"
+          auth.ldap:
+            enabled: true
+            allow_sign_up: true
+            skip_org_role_syne: true
+            config_file: /etc/grafana/ldap.toml
+
+        ingress:
+          enabled: true
+          ingressClassName: nginx
+          path: /
+          pathType: Prefix
+          hosts:
+            - argocd.app.grafana.localdev.me
+
+        resources:
+          requests:
+            cpu: 200m
+            memory: 256Mi
+          limits:
+            cpu: 1000m
+            memory: 1024Mi
+
+        downloadDashboards:
+          resources:
+            limits:
+              cpu: 200m
+              memory: 256Mi
+            requests:
+              cpu: 200m
+              memory: 256Mi
+
+        datasources:
+          datasources.yaml:
+            apiVersion: 1
+            datasources:
+              - name: InfluxDB_v2_Flux
+                type: influxdb
+                access: proxy
+                url: http://10.0.0.16:8086
+                isDefault: true
+                jsonData:
+                  version: Flux
+                  organization: FuncTestOrg
+                  defaultBucket: FuncTestBucket
+                  tlsSkipVerify: true
+                secureJsonData:
+                  token: FuncTestToken
+
+        dashboardProviders:
+          dashboardproviders.yaml:
+            apiVersion: 1
+            providers:
+              - name: "default"
+                orgId: 1
+                folder: ""
+                type: file
+                disableDeletion: false
+                updateIntervalSeconds: 10
+                allowUiUpdates: true
+                editable: true
+                options:
+                  path: /var/lib/grafana/dashboards/default
+
+        dashboards:
+          default:
+            default-dashboard:
+              url: https://raw.githubusercontent.com/helloyuanyuan/argocd-apps/main/helm/grafana-dashboards/dashboard-default.json
