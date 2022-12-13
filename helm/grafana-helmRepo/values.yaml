@@ -86,6 +86,28 @@ datasources:
           tlsSkipVerify: true
         secureJsonData:
           token: FuncTestToken
+      - name: Globalinpart
+        type: influxdb
+        access: proxy
+        url: http://10.0.0.16:8086
+        jsonData:
+          version: Flux
+          organization: FuncTestOrg
+          defaultBucket: GlobalInpart
+          tlsSkipVerify: true
+        secureJsonData:
+          token: FuncTestToken
+      - name: Qapter
+        type: influxdb
+        access: proxy
+        url: http://10.0.0.16:8086
+        jsonData:
+          version: Flux
+          organization: FuncTestOrg
+          defaultBucket: Qapter
+          tlsSkipVerify: true
+        secureJsonData:
+          token: FuncTestToken
 
 dashboardProviders:
   dashboardproviders.yaml:
@@ -104,5 +126,9 @@ dashboardProviders:
 
 dashboards:
   default:
-    default-dashboard:
+    dashboard-default:
       url: https://raw.githubusercontent.com/helloyuanyuan/argocd-apps/main/helm/grafana-dashboards/dashboard-default.json
+    dashboard-globalinpart:
+      url: https://raw.githubusercontent.com/helloyuanyuan/argocd-apps/main/helm/grafana-dashboards/dashboard-globalinpart.json
+    dashboard-qapter:
+      url: https://raw.githubusercontent.com/helloyuanyuan/argocd-apps/main/helm/grafana-dashboards/dashboard-qapter.json

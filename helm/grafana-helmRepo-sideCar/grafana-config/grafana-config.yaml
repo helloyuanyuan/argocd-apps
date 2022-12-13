@@ -1,0 +1,71 @@
+apiVersion: v1
+data:
+  dashboard-provider.yaml: |-
+    apiVersion: 1
+    providers:
+    - name: 'default'
+      orgId: 1
+      folder: ''
+      type: file
+      disableDeletion: false
+      updateIntervalSeconds: 10 #how often Grafana will scan for changed dashboards
+      allowUiUpdates: true
+      options:
+        path: /var/lib/grafana/dashboards
+  datasource-influxdb.yaml: |
+    apiVersion: 1
+    datasources:
+      - name: InfluxDB_v2_Flux
+        type: influxdb
+        access: proxy
+        url: http://10.0.0.16:8086
+        jsonData:
+          version: Flux
+          organization: FuncTestOrg
+          defaultBucket: FuncTestBucket
+          tlsSkipVerify: true
+        secureJsonData:
+          token: FuncTestToken
+      - name: globalinpart
+        type: influxdb
+        access: proxy
+        url: http://10.0.0.16:8086
+        jsonData:
+          version: Flux
+          organization: FuncTestOrg
+          defaultBucket: GlobalInpart
+          tlsSkipVerify: true
+        secureJsonData:
+          token: FuncTestToken
+      - name: qapter
+        type: influxdb
+        access: proxy
+        url: http://10.0.0.16:8086
+        jsonData:
+          version: Flux
+          organization: FuncTestOrg
+          defaultBucket: Qapter
+          tlsSkipVerify: true
+        secureJsonData:
+          token: FuncTestToken
+  ldap.toml: |-
+    [[servers]]
+    host = "127.0.0.1"
+    port = 389
+    use_ssl = false
+    start_tls = false
+    ssl_skip_verify = true
+    bind_dn = "cn=admin,dc=mycompany,dc=org"
+    bind_password = '$__env{LDAP_BIND_PW}'
+    search_filter = "(cn=%s)"
+    search_base_dns = ["ou=Users,dc=mycompany,dc=org"]
+
+    [servers.attributes]
+    name = "givenName"
+    surname = "sn"
+    username = "cn"
+    member_of = "memberOf"
+    email =  "email"
+kind: ConfigMap
+metadata:
+  name: grafana-config
