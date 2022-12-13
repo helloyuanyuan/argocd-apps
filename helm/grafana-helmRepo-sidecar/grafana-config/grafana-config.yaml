@@ -3,18 +3,6 @@ kind: ConfigMap
 metadata:
   name: grafana-config
 data:
-  dashboard-provider.yaml: |-
-    apiVersion: 1
-    providers:
-    - name: 'default'
-      orgId: 1
-      folder: ''
-      type: file
-      disableDeletion: false
-      updateIntervalSeconds: 10 #how often Grafana will scan for changed dashboards
-      allowUiUpdates: true
-      options:
-        path: /var/lib/grafana/dashboards
   ldap.toml: |-
     [[servers]]
     host = "127.0.0.1"

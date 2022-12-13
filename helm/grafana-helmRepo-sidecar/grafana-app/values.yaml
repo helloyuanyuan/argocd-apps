@@ -56,12 +56,6 @@ extraConfigmapMounts:
     readOnly: false
     subPath: ldap.toml
 
-  - name: dashboard-provider
-    mountPath: /etc/grafana/provisioning/dashboards/dashboard-provider.yaml
-    configMap: grafana-config
-    readOnly: false
-    subPath: dashboard-provider.yaml
-
 sidecar:
   resources:
     limits:
@@ -76,3 +70,11 @@ sidecar:
   dashboards:
     enabled: true
     label: grafana_dashboard
+    provider:
+      name: sidecarProvider
+      orgid: 1
+      folder: ""
+      type: file
+      disableDelete: false
+      allowUiUpdates: true
+      foldersFromFilesStructure: false
