@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: grafana-dashboard-globalinpart
   labels:
-    grafana_dashboard: '1'
+    grafana_dashboard: "1"
 data:
   grafana-dashboard-globalinpart.json: |-
     {

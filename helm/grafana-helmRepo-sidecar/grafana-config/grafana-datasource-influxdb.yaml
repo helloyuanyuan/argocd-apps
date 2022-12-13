@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: grafana-datasource-influxdb
   labels:
-    grafana_datasource: '1'
+    grafana_datasource: "1"
 data:
   grafana-datasource-influxdb.yaml: |
     apiVersion: 1
