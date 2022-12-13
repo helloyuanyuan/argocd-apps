@@ -1,9 +1,10 @@
 apiVersion: 1
 datasources:
-  - name: InfluxDB_v2_Flux
+  - name: InfluxDB_v2_Flux_FuncTestBucket
     type: influxdb
     access: proxy
     url: http://10.0.0.16:8086
+    isDefault: true
     jsonData:
       version: Flux
       organization: FuncTestOrg
@@ -11,7 +12,7 @@ datasources:
       tlsSkipVerify: true
     secureJsonData:
       token: FuncTestToken
-  - name: globalinpart
+  - name: InfluxDB_v2_Flux_GlobalInpart
     type: influxdb
     access: proxy
     url: http://10.0.0.16:8086
@@ -22,7 +23,7 @@ datasources:
       tlsSkipVerify: true
     secureJsonData:
       token: FuncTestToken
-  - name: qapter
+  - name: InfluxDB_v2_Flux_Qapter
     type: influxdb
     access: proxy
     url: http://10.0.0.16:8086

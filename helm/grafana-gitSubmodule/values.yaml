@@ -74,7 +74,7 @@ datasources:
   datasources.yaml:
     apiVersion: 1
     datasources:
-      - name: InfluxDB_v2_Flux
+      - name: InfluxDB_v2_Flux_FuncTestBucket
         type: influxdb
         access: proxy
         url: http://10.0.0.16:8086
@@ -100,7 +100,7 @@ dashboardProviders:
         allowUiUpdates: true
         editable: true
         options:
-          path: /var/lib/grafana/dashboards/default
+          path: /var/lib/grafana/dashboards
 
 dashboards:
   default:
