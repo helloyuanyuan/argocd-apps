@@ -105,4 +105,4 @@ dashboardProviders:
 dashboards:
   default:
     default-dashboard:
-      url: https://raw.githubusercontent.com/helloyuanyuan/argocd-apps/main/helm/grafana-dashboards/dashboard-default.json
+      url: https://raw.githubusercontent.com/helloyuanyuan/argocd-apps/main/helm/grafana-dashboards/dashboard-FuncTestBucket.json
