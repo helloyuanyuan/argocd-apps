@@ -1,14 +1,17 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: grafana-config
+  name: grafana-helm-gitSubmodule
   namespace: argocd
 spec:
   project: default
   source:
-    path: helm/grafana-helmRepo-sidecar/grafana-config
+    path: helm/grafana-gitSubmodule/charts/charts/grafana
     repoURL: https://github.com/helloyuanyuan/argocd-apps.git
     targetRevision: main
+    helm:
+      valueFiles:
+        - ../../../values.yaml
   destination:
     namespace: argocd-apps
     server: "https://kubernetes.default.svc"

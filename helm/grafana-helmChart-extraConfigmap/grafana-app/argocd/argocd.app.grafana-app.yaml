@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: grafana-helmRepo-extraConfigmap-app
+  name: grafana-helm-chart-extraConfigmap-app
   namespace: argocd
 spec:
   project: default

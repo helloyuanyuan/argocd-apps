@@ -8,38 +8,36 @@ data:
   grafana-datasource-influxdb.yaml: |
     apiVersion: 1
     datasources:
-      - name: InfluxDB_v2_Flux_FuncTestBucket
-        type: influxdb
-        access: proxy
-        url: http://10.0.0.16:8086
-        isDefault: true
-        jsonData:
-          version: Flux
-          organization: FuncTestOrg
-          defaultBucket: FuncTestBucket
-          tlsSkipVerify: true
-        secureJsonData:
-          token: FuncTestToken
-      - name: InfluxDB_v2_Flux_GlobalInpart
+      - name: InfluxDB_v2_Flux_ProjectA
         type: influxdb
         access: proxy
         url: http://10.0.0.16:8086
         jsonData:
           version: Flux
           organization: FuncTestOrg
-          defaultBucket: GlobalInpart
+          defaultBucket: ProjectA
           tlsSkipVerify: true
         secureJsonData:
           token: FuncTestToken
-      - name: InfluxDB_v2_Flux_Qapter
+      - name: InfluxDB_v2_Flux_ProjectB
         type: influxdb
         access: proxy
         url: http://10.0.0.16:8086
         jsonData:
           version: Flux
           organization: FuncTestOrg
-          defaultBucket: Qapter
+          defaultBucket: ProjectB
           tlsSkipVerify: true
         secureJsonData:
           token: FuncTestToken
-
+      - name: InfluxDB_v2_Flux_ProjectC
+        type: influxdb
+        access: proxy
+        url: http://10.0.0.16:8086
+        jsonData:
+          version: Flux
+          organization: FuncTestOrg
+          defaultBucket: ProjectC
+          tlsSkipVerify: true
+        secureJsonData:
+          token: FuncTestToken

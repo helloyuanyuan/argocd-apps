@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: helm-grafana-helmRepo
+  name: grafana-helm-chart
   namespace: argocd
 spec:
   project: default
