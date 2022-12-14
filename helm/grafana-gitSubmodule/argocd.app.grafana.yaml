@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: grafana
+  name: helm-grafana-gitSubmodule
   namespace: argocd
 spec:
   project: default
