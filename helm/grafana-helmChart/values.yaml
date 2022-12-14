@@ -126,8 +126,8 @@ dashboardProviders:
 dashboards:
   default:
     dashboard-ProjectA:
-      url: https://raw.githubusercontent.com/helloyuanyuan/argocd-apps/main/helm/grafana-dashboards/dashboard-ProjectA.json
+      url: https://raw.githubusercontent.com/helloyuanyuan/argocd-apps/main/helm/grafana-dashboards/dashboard-project-a.json
     dashboard-ProjectB:
-      url: https://raw.githubusercontent.com/helloyuanyuan/argocd-apps/main/helm/grafana-dashboards/dashboard-ProjectB.json
+      url: https://raw.githubusercontent.com/helloyuanyuan/argocd-apps/main/helm/grafana-dashboards/dashboard-project-b.json
     dashboard-ProjectC:
-      url: https://raw.githubusercontent.com/helloyuanyuan/argocd-apps/main/helm/grafana-dashboards/dashboard-ProjectC.json
+      url: https://raw.githubusercontent.com/helloyuanyuan/argocd-apps/main/helm/grafana-dashboards/dashboard-project-c.json

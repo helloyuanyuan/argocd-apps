@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: grafana-dashboard-ProjectA
+  name: grafana-dashboard-project-a
   labels:
     grafana_dashboard: "1"
 data:
-  grafana-dashboard-ProjectA.json: |
+  grafana-dashboard-project-a.json: |
     {
       "annotations": {
         "list": [

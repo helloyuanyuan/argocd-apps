@@ -1,6 +1,6 @@
 apiVersion: v1
 data:
-  dashboard-ProjectA.json: |-
+  dashboard-project-a.json: |-
     {
       "annotations": {
         "list": [
@@ -7255,7 +7255,7 @@ data:
       "version": 1,
       "weekStart": ""
     }
-  dashboard-ProjectB.json: |-
+  dashboard-project-b.json: |-
     {
       "annotations": {
         "list": [
@@ -14511,7 +14511,7 @@ data:
       "version": 1,
       "weekStart": ""
     }
-  dashboard-ProjectC.json: |-
+  dashboard-project-c.json: |-
     {
       "annotations": {
         "list": [
