@@ -20,13 +20,13 @@ argocd app create hellodemo \
 Or
 
 ~~~bash
-argocd app create -f argocd.app.hellodemo.yaml
+argocd app create -f ./argocd/argocd.app.hellodemo.yaml
 ~~~
 
 Or
 
 ~~~bash
-kubectl create -f argocd.app.hellodemo.yaml
+kubectl create -f ./argocd/argocd.app.hellodemo.yaml
 ~~~
 
 ### 3. View created ArgoCD app status

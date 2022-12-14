@@ -11,13 +11,13 @@ kubectl create ns argocd-apps
 ### 2. Create ArgoCD app via CLI
 
 ~~~bash
-argocd app create -f argocd.app.grafana.yaml
+argocd app create -f ./argocd/argocd.app.grafana.yaml
 ~~~
 
 Or
 
 ~~~bash
-kubectl create -f argocd.app.grafana.yaml
+kubectl create -f ./argocd/argocd.app.grafana.yaml
 ~~~
 
 ### 3. View created ArgoCD app status

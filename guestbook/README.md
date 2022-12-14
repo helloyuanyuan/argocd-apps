@@ -20,13 +20,13 @@ argocd app create guestbook \
 Or
 
 ~~~bash
-argocd app create -f argocd.app.guestbook.yaml
+argocd app create -f ./argocd/argocd.app.guestbook.yaml
 ~~~
 
 Or
 
 ~~~bash
-kubectl create -f argocd.app.guestbook.yaml
+kubectl create -f ./argocd/argocd.app.guestbook.yaml
 ~~~
 
 ### 3. View created ArgoCD app status
