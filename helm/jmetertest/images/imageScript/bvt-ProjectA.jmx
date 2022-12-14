@@ -374,7 +374,7 @@
             </elementProp>
             <elementProp name="influxDBBucket" elementType="Argument">
               <stringProp name="Argument.name">influxDBBucket</stringProp>
-              <stringProp name="Argument.value">GlobalInpart</stringProp>
+              <stringProp name="Argument.value">ProjectA</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="influxDBFlushInterval" elementType="Argument">

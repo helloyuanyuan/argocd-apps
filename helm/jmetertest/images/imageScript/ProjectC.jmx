@@ -989,7 +989,7 @@ log.info(&quot;appointmentId${__threadNum}: ${appointmentId}&quot;);</stringProp
             </elementProp>
             <elementProp name="influxDBBucket" elementType="Argument">
               <stringProp name="Argument.name">influxDBBucket</stringProp>
-              <stringProp name="Argument.value">Qapter</stringProp>
+              <stringProp name="Argument.value">ProjectC</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="influxDBFlushInterval" elementType="Argument">
