@@ -88,9 +88,11 @@ spec:
           datasources:
             enabled: true
             label: grafana_datasource
+            resource: configmap
           dashboards:
             enabled: true
             label: grafana_dashboard
+            resource: configmap
             provider:
               name: sidecarProvider
               orgid: 1
