@@ -1,6 +1,6 @@
 apiVersion: v1
 data:
-  dashboard-default.json: |-
+  dashboard-ProjectA.json: |-
     {
       "annotations": {
         "list": [
@@ -25,7 +25,7 @@ data:
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "P2081FF544FC74280"
+              "uid": "xW6uMOc4z"
             },
             "enable": true,
             "hide": false,
@@ -47,7 +47,7 @@ data:
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "P2081FF544FC74280"
+              "uid": "xW6uMOc4z"
             },
             "enable": true,
             "iconColor": "rgba(255, 96, 96, 1)",
@@ -91,7 +91,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "description": "",
           "fieldConfig": {
@@ -152,12 +152,12 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [],
@@ -188,7 +188,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "fieldConfig": {
             "defaults": {
@@ -249,12 +249,12 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [],
@@ -286,7 +286,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "description": "",
           "fieldConfig": {
@@ -348,12 +348,12 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -399,7 +399,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "fieldConfig": {
             "defaults": {
@@ -460,12 +460,12 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -513,7 +513,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "fieldConfig": {
             "defaults": {
@@ -574,12 +574,12 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [],
@@ -610,7 +610,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "fieldConfig": {
             "defaults": {
@@ -673,12 +673,12 @@ data:
             },
             "textMode": "auto"
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [],
@@ -709,7 +709,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "description": "",
           "fieldConfig": {
@@ -773,12 +773,12 @@ data:
             "showThresholdMarkers": true,
             "text": {}
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [],
@@ -808,7 +808,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "fieldConfig": {
             "defaults": {
@@ -871,12 +871,12 @@ data:
             "showThresholdMarkers": true,
             "text": {}
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [],
@@ -923,7 +923,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "description": "Throughput is calculated as requests/unit of time. Shows overall throughput.",
           "fieldConfig": {
@@ -1050,7 +1050,7 @@ data:
               "alias": "Throughput",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -1094,7 +1094,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -1139,7 +1139,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "description": "",
           "fieldConfig": {
@@ -1254,7 +1254,7 @@ data:
               "alias": "Throughput",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -1298,7 +1298,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -1343,7 +1343,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "description": "",
           "fieldConfig": {
@@ -1470,7 +1470,7 @@ data:
               "alias": "Throughput",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -1514,7 +1514,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -1559,7 +1559,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "description": "",
           "fieldConfig": {
@@ -1674,7 +1674,7 @@ data:
               "alias": "Throughput",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -1718,7 +1718,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -1763,7 +1763,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "description": "",
           "fieldConfig": {
@@ -1877,7 +1877,7 @@ data:
               "alias": "Throughput",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -1921,7 +1921,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -1966,7 +1966,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "description": "",
           "fieldConfig": {
@@ -2051,7 +2051,7 @@ data:
               "alias": "$tag_responseCode",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -2121,7 +2121,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "fieldConfig": {
             "defaults": {
@@ -2279,7 +2279,7 @@ data:
               "alias": "$tag_requestName",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -2328,7 +2328,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -2372,7 +2372,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "fieldConfig": {
             "defaults": {
@@ -2530,7 +2530,7 @@ data:
               "alias": "$tag_requestName",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -2579,7 +2579,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -2623,7 +2623,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "fieldConfig": {
             "defaults": {
@@ -2781,7 +2781,7 @@ data:
               "alias": "$tag_requestName",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -2830,7 +2830,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -2874,7 +2874,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "fieldConfig": {
             "defaults": {
@@ -3032,7 +3032,7 @@ data:
               "alias": "$tag_requestName",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -3081,7 +3081,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -3125,7 +3125,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "description": "",
           "fieldConfig": {
@@ -3242,7 +3242,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -3282,7 +3282,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -3322,7 +3322,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -3362,7 +3362,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -3402,7 +3402,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -3455,7 +3455,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "description": "",
           "fieldConfig": {
@@ -3511,7 +3511,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "hide": false,
               "query": "from(bucket: v.bucket)\r\n   |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"requestsRaw\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"responseTime\")\r\n  |> filter(fn: (r) => r[\"runId\"] =~ /${runId:regex}/)\r\n  |> filter(fn: (r) => r[\"samplerType\"] =~ /${samplerType:regex}/)\r\n  |> group(columns: [\"requestName\"])\r\n  |> toFloat()\r\n  |> quantile(q: 0.90)\r\n  |> group(columns: [\"requestName\"])\r\n  |> keep(columns: [ \"_value\", \"requestName\"])\r\n  |> rename(columns: {_value: \"request\"})\r\n\r\n",
@@ -3525,7 +3525,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "description": "",
           "fieldConfig": {
@@ -3581,7 +3581,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "hide": false,
               "query": "from(bucket: v.bucket)\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"requestsRaw\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"responseTime\")\r\n  |> filter(fn: (r) => r[\"runId\"] =~ /${runId:regex}/)\r\n  |> filter(fn: (r) => r[\"samplerType\"] =~ /${samplerType:regex}/)\r\n  |> group(columns: [\"requestName\"])\r\n  |> toFloat()\r\n  |> quantile(q: 0.95)\r\n  |> group(columns: [\"requestName\"])\r\n  |> keep(columns: [ \"_value\", \"requestName\"])\r\n  |> rename(columns: {_value: \"request\"})\r\n\r\n",
@@ -3612,7 +3612,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "description": "",
           "fieldConfig": {
@@ -3843,7 +3843,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -3883,7 +3883,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -3923,7 +3923,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -3963,7 +3963,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -4003,7 +4003,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -4043,7 +4043,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -4083,7 +4083,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -4123,7 +4123,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -4163,7 +4163,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -4203,7 +4203,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -4263,7 +4263,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "description": "",
               "fieldConfig": {
@@ -4496,7 +4496,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -4536,7 +4536,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -4576,7 +4576,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -4616,7 +4616,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -4656,7 +4656,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -4696,7 +4696,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -4736,7 +4736,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -4776,7 +4776,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -4816,7 +4816,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -4856,7 +4856,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -4906,7 +4906,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "editable": true,
               "error": false,
@@ -4948,7 +4948,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "description": "",
               "fieldConfig": {
@@ -5054,7 +5054,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -5125,7 +5125,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "description": "",
               "fieldConfig": {
@@ -5234,7 +5234,7 @@ data:
                   "alias": "",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -5297,7 +5297,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "fieldConfig": {
                 "defaults": {
@@ -5427,7 +5427,7 @@ data:
                   "alias": "$tag_requestName",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -5480,7 +5480,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "fieldConfig": {
                 "defaults": {
@@ -5610,7 +5610,7 @@ data:
                   "alias": "$tag_requestName",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -5663,7 +5663,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "description": "",
               "fieldConfig": {
@@ -5748,7 +5748,7 @@ data:
                   "alias": "Sent Bytes",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -5804,7 +5804,7 @@ data:
                   "alias": "Received Bytes",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -5863,7 +5863,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "fieldConfig": {
                 "defaults": {
@@ -5947,7 +5947,7 @@ data:
                   "alias": "$tag_requestName",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -6006,7 +6006,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "fieldConfig": {
                 "defaults": {
@@ -6090,7 +6090,7 @@ data:
                   "alias": "$tag_requestName",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -6149,7 +6149,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "description": "",
               "fieldConfig": {
@@ -6304,7 +6304,7 @@ data:
                   "alias": "$tag_requestName",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P2081FF544FC74280"
+                    "uid": "xW6uMOc4z"
                   },
                   "groupBy": [
                     {
@@ -6357,7 +6357,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "editable": true,
               "error": false,
@@ -6402,7 +6402,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "description": "",
           "fieldConfig": {
@@ -6529,7 +6529,7 @@ data:
               "alias": "Mean",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -6580,7 +6580,7 @@ data:
               "alias": "90 perc",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -6633,7 +6633,7 @@ data:
               "alias": "95 perc",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -6685,7 +6685,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "groupBy": [
                 {
@@ -6730,7 +6730,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "description": "",
           "fieldConfig": {
@@ -6819,7 +6819,7 @@ data:
               "alias": "Throughput",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -6872,7 +6872,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "fieldConfig": {
             "defaults": {
@@ -6959,7 +6959,7 @@ data:
               "alias": "Errors per Second",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -7012,7 +7012,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P2081FF544FC74280"
+            "uid": "xW6uMOc4z"
           },
           "description": "",
           "fieldConfig": {
@@ -7068,7 +7068,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P2081FF544FC74280"
+                "uid": "xW6uMOc4z"
               },
               "hide": false,
               "query": "from(bucket: v.bucket)\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"requestsRaw\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"count\")  \r\n  |> filter(fn: (r) => r[\"requestName\"] == \"${request}\")\r\n  |> filter(fn: (r) => r[\"runId\"] =~ /${runId:regex}/)\r\n  |> group(columns: [\"requestName\", \"responseCode\"])\r\n  |> toFloat()\r\n  |> sum()\r\n  |> keep(columns: [ \"requestName\", \"responseCode\", \"_value\"])\r\n  |> rename(columns: {_value: \"request\"})\r\n\r\n \r\n \r\n  ",
@@ -7094,7 +7094,7 @@ data:
             },
             "datasource": {
               "type": "influxdb",
-              "uid": "P2081FF544FC74280"
+              "uid": "xW6uMOc4z"
             },
             "definition": "",
             "hide": 0,
@@ -7175,7 +7175,7 @@ data:
             },
             "datasource": {
               "type": "influxdb",
-              "uid": "P2081FF544FC74280"
+              "uid": "xW6uMOc4z"
             },
             "definition": "import \"influxdata/influxdb/schema\"\r\n\r\nschema.measurementTagValues(\r\n  bucket: v.bucket,\r\n  measurement: \"requestsRaw\",\r\n  tag: \"runId\"\r\n)",
             "description": "You can filter the data using run id",
@@ -7201,7 +7201,7 @@ data:
             },
             "datasource": {
               "type": "influxdb",
-              "uid": "P2081FF544FC74280"
+              "uid": "xW6uMOc4z"
             },
             "definition": "import \"influxdata/influxdb/schema\"\r\n\r\nschema.measurementTagValues(\r\n  bucket: v.bucket,\r\n  measurement: \"requestsRaw\",\r\n  tag: \"samplerType\"\r\n)",
             "description": "There is the possibility to filter the requests or transactions  ",
@@ -7221,7 +7221,7 @@ data:
         ]
       },
       "time": {
-        "from": "now-12h",
+        "from": "now-24h",
         "to": "now"
       },
       "timepicker": {
@@ -7250,12 +7250,12 @@ data:
         ]
       },
       "timezone": "browser",
-      "title": "JMeter Load Test - FuncTestBucket",
-      "uid": "FuncTestBucket",
+      "title": "JMeter Load Test - ProjectA",
+      "uid": "ProjectA",
       "version": 1,
       "weekStart": ""
     }
-  dashboard-globalinpart.json: |-
+  dashboard-ProjectB.json: |-
     {
       "annotations": {
         "list": [
@@ -7280,7 +7280,7 @@ data:
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "P43E775170F8C5339"
+              "uid": "pwZqMdcVz"
             },
             "enable": true,
             "hide": false,
@@ -7302,7 +7302,7 @@ data:
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "P43E775170F8C5339"
+              "uid": "pwZqMdcVz"
             },
             "enable": true,
             "iconColor": "rgba(255, 96, 96, 1)",
@@ -7346,7 +7346,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "description": "",
           "fieldConfig": {
@@ -7407,12 +7407,12 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [],
@@ -7443,7 +7443,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "fieldConfig": {
             "defaults": {
@@ -7504,12 +7504,12 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [],
@@ -7541,7 +7541,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "description": "",
           "fieldConfig": {
@@ -7603,12 +7603,12 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -7654,7 +7654,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "fieldConfig": {
             "defaults": {
@@ -7715,12 +7715,12 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -7768,7 +7768,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "fieldConfig": {
             "defaults": {
@@ -7829,12 +7829,12 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [],
@@ -7865,7 +7865,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "fieldConfig": {
             "defaults": {
@@ -7928,12 +7928,12 @@ data:
             },
             "textMode": "auto"
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [],
@@ -7964,7 +7964,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "description": "",
           "fieldConfig": {
@@ -8028,12 +8028,12 @@ data:
             "showThresholdMarkers": true,
             "text": {}
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [],
@@ -8063,7 +8063,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "fieldConfig": {
             "defaults": {
@@ -8126,12 +8126,12 @@ data:
             "showThresholdMarkers": true,
             "text": {}
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [],
@@ -8178,7 +8178,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "description": "Throughput is calculated as requests/unit of time. Shows overall throughput.",
           "fieldConfig": {
@@ -8305,7 +8305,7 @@ data:
               "alias": "Throughput",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -8349,7 +8349,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -8394,7 +8394,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "description": "",
           "fieldConfig": {
@@ -8509,7 +8509,7 @@ data:
               "alias": "Throughput",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -8553,7 +8553,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -8598,7 +8598,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "description": "",
           "fieldConfig": {
@@ -8725,7 +8725,7 @@ data:
               "alias": "Throughput",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -8769,7 +8769,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -8814,7 +8814,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "description": "",
           "fieldConfig": {
@@ -8929,7 +8929,7 @@ data:
               "alias": "Throughput",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -8973,7 +8973,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -9018,7 +9018,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "description": "",
           "fieldConfig": {
@@ -9132,7 +9132,7 @@ data:
               "alias": "Throughput",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -9176,7 +9176,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -9221,7 +9221,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "description": "",
           "fieldConfig": {
@@ -9306,7 +9306,7 @@ data:
               "alias": "$tag_responseCode",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -9376,7 +9376,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "fieldConfig": {
             "defaults": {
@@ -9534,7 +9534,7 @@ data:
               "alias": "$tag_requestName",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -9583,7 +9583,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -9627,7 +9627,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "fieldConfig": {
             "defaults": {
@@ -9785,7 +9785,7 @@ data:
               "alias": "$tag_requestName",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -9834,7 +9834,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -9878,7 +9878,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "fieldConfig": {
             "defaults": {
@@ -10036,7 +10036,7 @@ data:
               "alias": "$tag_requestName",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -10085,7 +10085,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -10129,7 +10129,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "fieldConfig": {
             "defaults": {
@@ -10287,7 +10287,7 @@ data:
               "alias": "$tag_requestName",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -10336,7 +10336,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -10380,7 +10380,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "description": "",
           "fieldConfig": {
@@ -10497,7 +10497,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -10537,7 +10537,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -10577,7 +10577,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -10617,7 +10617,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -10657,7 +10657,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -10710,7 +10710,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "description": "",
           "fieldConfig": {
@@ -10766,7 +10766,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "hide": false,
               "query": "from(bucket: v.bucket)\r\n   |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"requestsRaw\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"responseTime\")\r\n  |> filter(fn: (r) => r[\"runId\"] =~ /${runId:regex}/)\r\n  |> filter(fn: (r) => r[\"samplerType\"] =~ /${samplerType:regex}/)\r\n  |> group(columns: [\"requestName\"])\r\n  |> toFloat()\r\n  |> quantile(q: 0.90)\r\n  |> group(columns: [\"requestName\"])\r\n  |> keep(columns: [ \"_value\", \"requestName\"])\r\n  |> rename(columns: {_value: \"request\"})\r\n\r\n",
@@ -10780,7 +10780,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "description": "",
           "fieldConfig": {
@@ -10836,7 +10836,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "hide": false,
               "query": "from(bucket: v.bucket)\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"requestsRaw\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"responseTime\")\r\n  |> filter(fn: (r) => r[\"runId\"] =~ /${runId:regex}/)\r\n  |> filter(fn: (r) => r[\"samplerType\"] =~ /${samplerType:regex}/)\r\n  |> group(columns: [\"requestName\"])\r\n  |> toFloat()\r\n  |> quantile(q: 0.95)\r\n  |> group(columns: [\"requestName\"])\r\n  |> keep(columns: [ \"_value\", \"requestName\"])\r\n  |> rename(columns: {_value: \"request\"})\r\n\r\n",
@@ -10867,7 +10867,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "description": "",
           "fieldConfig": {
@@ -11098,7 +11098,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -11138,7 +11138,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -11178,7 +11178,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -11218,7 +11218,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -11258,7 +11258,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -11298,7 +11298,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -11338,7 +11338,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -11378,7 +11378,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -11418,7 +11418,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -11458,7 +11458,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -11518,7 +11518,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "description": "",
               "fieldConfig": {
@@ -11751,7 +11751,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -11791,7 +11791,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -11831,7 +11831,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -11871,7 +11871,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -11911,7 +11911,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -11951,7 +11951,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -11991,7 +11991,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -12031,7 +12031,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -12071,7 +12071,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -12111,7 +12111,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -12161,7 +12161,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "editable": true,
               "error": false,
@@ -12203,7 +12203,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "description": "",
               "fieldConfig": {
@@ -12309,7 +12309,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -12380,7 +12380,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "description": "",
               "fieldConfig": {
@@ -12489,7 +12489,7 @@ data:
                   "alias": "",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -12552,7 +12552,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "fieldConfig": {
                 "defaults": {
@@ -12682,7 +12682,7 @@ data:
                   "alias": "$tag_requestName",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -12735,7 +12735,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "fieldConfig": {
                 "defaults": {
@@ -12865,7 +12865,7 @@ data:
                   "alias": "$tag_requestName",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -12918,7 +12918,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "description": "",
               "fieldConfig": {
@@ -13003,7 +13003,7 @@ data:
                   "alias": "Sent Bytes",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -13059,7 +13059,7 @@ data:
                   "alias": "Received Bytes",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -13118,7 +13118,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "fieldConfig": {
                 "defaults": {
@@ -13202,7 +13202,7 @@ data:
                   "alias": "$tag_requestName",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -13261,7 +13261,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "fieldConfig": {
                 "defaults": {
@@ -13345,7 +13345,7 @@ data:
                   "alias": "$tag_requestName",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -13404,7 +13404,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "description": "",
               "fieldConfig": {
@@ -13559,7 +13559,7 @@ data:
                   "alias": "$tag_requestName",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P43E775170F8C5339"
+                    "uid": "pwZqMdcVz"
                   },
                   "groupBy": [
                     {
@@ -13612,7 +13612,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "editable": true,
               "error": false,
@@ -13657,7 +13657,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "description": "",
           "fieldConfig": {
@@ -13784,7 +13784,7 @@ data:
               "alias": "Mean",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -13835,7 +13835,7 @@ data:
               "alias": "90 perc",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -13888,7 +13888,7 @@ data:
               "alias": "95 perc",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -13940,7 +13940,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "groupBy": [
                 {
@@ -13985,7 +13985,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "description": "",
           "fieldConfig": {
@@ -14074,7 +14074,7 @@ data:
               "alias": "Throughput",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -14127,7 +14127,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "fieldConfig": {
             "defaults": {
@@ -14214,7 +14214,7 @@ data:
               "alias": "Errors per Second",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -14267,7 +14267,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P43E775170F8C5339"
+            "uid": "pwZqMdcVz"
           },
           "description": "",
           "fieldConfig": {
@@ -14323,7 +14323,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P43E775170F8C5339"
+                "uid": "pwZqMdcVz"
               },
               "hide": false,
               "query": "from(bucket: v.bucket)\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"requestsRaw\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"count\")  \r\n  |> filter(fn: (r) => r[\"requestName\"] == \"${request}\")\r\n  |> filter(fn: (r) => r[\"runId\"] =~ /${runId:regex}/)\r\n  |> group(columns: [\"requestName\", \"responseCode\"])\r\n  |> toFloat()\r\n  |> sum()\r\n  |> keep(columns: [ \"requestName\", \"responseCode\", \"_value\"])\r\n  |> rename(columns: {_value: \"request\"})\r\n\r\n \r\n \r\n  ",
@@ -14343,13 +14343,14 @@ data:
         "list": [
           {
             "current": {
+              "isNone": true,
               "selected": false,
-              "text": "auth token",
-              "value": "auth token"
+              "text": "None",
+              "value": ""
             },
             "datasource": {
               "type": "influxdb",
-              "uid": "P43E775170F8C5339"
+              "uid": "pwZqMdcVz"
             },
             "definition": "",
             "hide": 0,
@@ -14430,7 +14431,7 @@ data:
             },
             "datasource": {
               "type": "influxdb",
-              "uid": "P43E775170F8C5339"
+              "uid": "pwZqMdcVz"
             },
             "definition": "import \"influxdata/influxdb/schema\"\r\n\r\nschema.measurementTagValues(\r\n  bucket: v.bucket,\r\n  measurement: \"requestsRaw\",\r\n  tag: \"runId\"\r\n)",
             "description": "You can filter the data using run id",
@@ -14456,7 +14457,7 @@ data:
             },
             "datasource": {
               "type": "influxdb",
-              "uid": "P43E775170F8C5339"
+              "uid": "pwZqMdcVz"
             },
             "definition": "import \"influxdata/influxdb/schema\"\r\n\r\nschema.measurementTagValues(\r\n  bucket: v.bucket,\r\n  measurement: \"requestsRaw\",\r\n  tag: \"samplerType\"\r\n)",
             "description": "There is the possibility to filter the requests or transactions  ",
@@ -14476,7 +14477,7 @@ data:
         ]
       },
       "time": {
-        "from": "now-12h",
+        "from": "now-24h",
         "to": "now"
       },
       "timepicker": {
@@ -14505,12 +14506,12 @@ data:
         ]
       },
       "timezone": "browser",
-      "title": "JMeter Load Test - GlobalInpart",
-      "uid": "GlobalInpart",
+      "title": "JMeter Load Test - ProjectB",
+      "uid": "ProjectB",
       "version": 1,
       "weekStart": ""
     }
-  dashboard-qapter.json: |-
+  dashboard-ProjectC.json: |-
     {
       "annotations": {
         "list": [
@@ -14535,7 +14536,7 @@ data:
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "P3589391BC0EF0F28"
+              "uid": "rzTRndc4k"
             },
             "enable": true,
             "hide": false,
@@ -14557,7 +14558,7 @@ data:
           {
             "datasource": {
               "type": "influxdb",
-              "uid": "P3589391BC0EF0F28"
+              "uid": "rzTRndc4k"
             },
             "enable": true,
             "iconColor": "rgba(255, 96, 96, 1)",
@@ -14601,7 +14602,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "description": "",
           "fieldConfig": {
@@ -14662,12 +14663,12 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [],
@@ -14698,7 +14699,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "fieldConfig": {
             "defaults": {
@@ -14759,12 +14760,12 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [],
@@ -14796,7 +14797,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "description": "",
           "fieldConfig": {
@@ -14858,12 +14859,12 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -14909,7 +14910,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "fieldConfig": {
             "defaults": {
@@ -14970,12 +14971,12 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -15023,7 +15024,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "fieldConfig": {
             "defaults": {
@@ -15084,12 +15085,12 @@ data:
             "text": {},
             "textMode": "auto"
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [],
@@ -15120,7 +15121,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "fieldConfig": {
             "defaults": {
@@ -15183,12 +15184,12 @@ data:
             },
             "textMode": "auto"
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [],
@@ -15219,7 +15220,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "description": "",
           "fieldConfig": {
@@ -15283,12 +15284,12 @@ data:
             "showThresholdMarkers": true,
             "text": {}
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [],
@@ -15318,7 +15319,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "fieldConfig": {
             "defaults": {
@@ -15381,12 +15382,12 @@ data:
             "showThresholdMarkers": true,
             "text": {}
           },
-          "pluginVersion": "9.3.1",
+          "pluginVersion": "9.3.0",
           "targets": [
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [],
@@ -15433,7 +15434,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "description": "Throughput is calculated as requests/unit of time. Shows overall throughput.",
           "fieldConfig": {
@@ -15560,7 +15561,7 @@ data:
               "alias": "Throughput",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -15604,7 +15605,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -15649,7 +15650,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "description": "",
           "fieldConfig": {
@@ -15764,7 +15765,7 @@ data:
               "alias": "Throughput",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -15808,7 +15809,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -15853,7 +15854,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "description": "",
           "fieldConfig": {
@@ -15980,7 +15981,7 @@ data:
               "alias": "Throughput",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -16024,7 +16025,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -16069,7 +16070,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "description": "",
           "fieldConfig": {
@@ -16184,7 +16185,7 @@ data:
               "alias": "Throughput",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -16228,7 +16229,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -16273,7 +16274,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "description": "",
           "fieldConfig": {
@@ -16387,7 +16388,7 @@ data:
               "alias": "Throughput",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -16431,7 +16432,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -16476,7 +16477,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "description": "",
           "fieldConfig": {
@@ -16561,7 +16562,7 @@ data:
               "alias": "$tag_responseCode",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -16631,7 +16632,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "fieldConfig": {
             "defaults": {
@@ -16789,7 +16790,7 @@ data:
               "alias": "$tag_requestName",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -16838,7 +16839,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -16882,7 +16883,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "fieldConfig": {
             "defaults": {
@@ -17040,7 +17041,7 @@ data:
               "alias": "$tag_requestName",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -17089,7 +17090,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -17133,7 +17134,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "fieldConfig": {
             "defaults": {
@@ -17291,7 +17292,7 @@ data:
               "alias": "$tag_requestName",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -17340,7 +17341,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -17384,7 +17385,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "fieldConfig": {
             "defaults": {
@@ -17542,7 +17543,7 @@ data:
               "alias": "$tag_requestName",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -17591,7 +17592,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -17635,7 +17636,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "description": "",
           "fieldConfig": {
@@ -17752,7 +17753,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -17792,7 +17793,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -17832,7 +17833,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -17872,7 +17873,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -17912,7 +17913,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -17965,7 +17966,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "description": "",
           "fieldConfig": {
@@ -18021,7 +18022,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "hide": false,
               "query": "from(bucket: v.bucket)\r\n   |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"requestsRaw\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"responseTime\")\r\n  |> filter(fn: (r) => r[\"runId\"] =~ /${runId:regex}/)\r\n  |> filter(fn: (r) => r[\"samplerType\"] =~ /${samplerType:regex}/)\r\n  |> group(columns: [\"requestName\"])\r\n  |> toFloat()\r\n  |> quantile(q: 0.90)\r\n  |> group(columns: [\"requestName\"])\r\n  |> keep(columns: [ \"_value\", \"requestName\"])\r\n  |> rename(columns: {_value: \"request\"})\r\n\r\n",
@@ -18035,7 +18036,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "description": "",
           "fieldConfig": {
@@ -18091,7 +18092,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "hide": false,
               "query": "from(bucket: v.bucket)\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"requestsRaw\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"responseTime\")\r\n  |> filter(fn: (r) => r[\"runId\"] =~ /${runId:regex}/)\r\n  |> filter(fn: (r) => r[\"samplerType\"] =~ /${samplerType:regex}/)\r\n  |> group(columns: [\"requestName\"])\r\n  |> toFloat()\r\n  |> quantile(q: 0.95)\r\n  |> group(columns: [\"requestName\"])\r\n  |> keep(columns: [ \"_value\", \"requestName\"])\r\n  |> rename(columns: {_value: \"request\"})\r\n\r\n",
@@ -18122,7 +18123,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "description": "",
           "fieldConfig": {
@@ -18353,7 +18354,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -18393,7 +18394,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -18433,7 +18434,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -18473,7 +18474,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -18513,7 +18514,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -18553,7 +18554,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -18593,7 +18594,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -18633,7 +18634,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -18673,7 +18674,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -18713,7 +18714,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -18773,7 +18774,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "description": "",
               "fieldConfig": {
@@ -19006,7 +19007,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -19046,7 +19047,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -19086,7 +19087,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -19126,7 +19127,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -19166,7 +19167,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -19206,7 +19207,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -19246,7 +19247,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -19286,7 +19287,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -19326,7 +19327,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -19366,7 +19367,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -19416,7 +19417,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "editable": true,
               "error": false,
@@ -19458,7 +19459,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "description": "",
               "fieldConfig": {
@@ -19564,7 +19565,7 @@ data:
                 {
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -19635,7 +19636,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "description": "",
               "fieldConfig": {
@@ -19744,7 +19745,7 @@ data:
                   "alias": "",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -19807,7 +19808,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "fieldConfig": {
                 "defaults": {
@@ -19937,7 +19938,7 @@ data:
                   "alias": "$tag_requestName",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -19990,7 +19991,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "fieldConfig": {
                 "defaults": {
@@ -20120,7 +20121,7 @@ data:
                   "alias": "$tag_requestName",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -20173,7 +20174,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "description": "",
               "fieldConfig": {
@@ -20258,7 +20259,7 @@ data:
                   "alias": "Sent Bytes",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -20314,7 +20315,7 @@ data:
                   "alias": "Received Bytes",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -20373,7 +20374,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "fieldConfig": {
                 "defaults": {
@@ -20457,7 +20458,7 @@ data:
                   "alias": "$tag_requestName",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -20516,7 +20517,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "fieldConfig": {
                 "defaults": {
@@ -20600,7 +20601,7 @@ data:
                   "alias": "$tag_requestName",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -20659,7 +20660,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "description": "",
               "fieldConfig": {
@@ -20814,7 +20815,7 @@ data:
                   "alias": "$tag_requestName",
                   "datasource": {
                     "type": "influxdb",
-                    "uid": "P3589391BC0EF0F28"
+                    "uid": "rzTRndc4k"
                   },
                   "groupBy": [
                     {
@@ -20867,7 +20868,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "editable": true,
               "error": false,
@@ -20912,7 +20913,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "description": "",
           "fieldConfig": {
@@ -21039,7 +21040,7 @@ data:
               "alias": "Mean",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -21090,7 +21091,7 @@ data:
               "alias": "90 perc",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -21143,7 +21144,7 @@ data:
               "alias": "95 perc",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -21195,7 +21196,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "groupBy": [
                 {
@@ -21240,7 +21241,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "description": "",
           "fieldConfig": {
@@ -21329,7 +21330,7 @@ data:
               "alias": "Throughput",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -21382,7 +21383,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "fieldConfig": {
             "defaults": {
@@ -21469,7 +21470,7 @@ data:
               "alias": "Errors per Second",
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "dsType": "influxdb",
               "groupBy": [
@@ -21522,7 +21523,7 @@ data:
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "P3589391BC0EF0F28"
+            "uid": "rzTRndc4k"
           },
           "description": "",
           "fieldConfig": {
@@ -21578,7 +21579,7 @@ data:
             {
               "datasource": {
                 "type": "influxdb",
-                "uid": "P3589391BC0EF0F28"
+                "uid": "rzTRndc4k"
               },
               "hide": false,
               "query": "from(bucket: v.bucket)\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"requestsRaw\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"count\")  \r\n  |> filter(fn: (r) => r[\"requestName\"] == \"${request}\")\r\n  |> filter(fn: (r) => r[\"runId\"] =~ /${runId:regex}/)\r\n  |> group(columns: [\"requestName\", \"responseCode\"])\r\n  |> toFloat()\r\n  |> sum()\r\n  |> keep(columns: [ \"requestName\", \"responseCode\", \"_value\"])\r\n  |> rename(columns: {_value: \"request\"})\r\n\r\n \r\n \r\n  ",
@@ -21598,13 +21599,14 @@ data:
         "list": [
           {
             "current": {
+              "isNone": true,
               "selected": false,
-              "text": "auth token",
-              "value": "auth token"
+              "text": "None",
+              "value": ""
             },
             "datasource": {
               "type": "influxdb",
-              "uid": "P3589391BC0EF0F28"
+              "uid": "rzTRndc4k"
             },
             "definition": "",
             "hide": 0,
@@ -21685,7 +21687,7 @@ data:
             },
             "datasource": {
               "type": "influxdb",
-              "uid": "P3589391BC0EF0F28"
+              "uid": "rzTRndc4k"
             },
             "definition": "import \"influxdata/influxdb/schema\"\r\n\r\nschema.measurementTagValues(\r\n  bucket: v.bucket,\r\n  measurement: \"requestsRaw\",\r\n  tag: \"runId\"\r\n)",
             "description": "You can filter the data using run id",
@@ -21711,7 +21713,7 @@ data:
             },
             "datasource": {
               "type": "influxdb",
-              "uid": "P3589391BC0EF0F28"
+              "uid": "rzTRndc4k"
             },
             "definition": "import \"influxdata/influxdb/schema\"\r\n\r\nschema.measurementTagValues(\r\n  bucket: v.bucket,\r\n  measurement: \"requestsRaw\",\r\n  tag: \"samplerType\"\r\n)",
             "description": "There is the possibility to filter the requests or transactions  ",
@@ -21760,8 +21762,8 @@ data:
         ]
       },
       "timezone": "browser",
-      "title": "JMeter Load Test - Qapter",
-      "uid": "Qapter",
+      "title": "JMeter Load Test - ProjectC",
+      "uid": "ProjectC",
       "version": 1,
       "weekStart": ""
     }

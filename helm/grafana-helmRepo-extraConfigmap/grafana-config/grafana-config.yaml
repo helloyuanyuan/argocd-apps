@@ -15,37 +15,36 @@ data:
   datasource-influxdb.yaml: |
     apiVersion: 1
     datasources:
-      - name: InfluxDB_v2_Flux_FuncTestBucket
+      - name: InfluxDB_v2_Flux_ProjectA
         type: influxdb
         access: proxy
         url: http://10.0.0.16:8086
-        isDefault: true
         jsonData:
           version: Flux
           organization: FuncTestOrg
-          defaultBucket: FuncTestBucket
+          defaultBucket: ProjectA
           tlsSkipVerify: true
         secureJsonData:
           token: FuncTestToken
-      - name: InfluxDB_v2_Flux_GlobalInpart
+      - name: InfluxDB_v2_Flux_ProjectB
         type: influxdb
         access: proxy
         url: http://10.0.0.16:8086
         jsonData:
           version: Flux
           organization: FuncTestOrg
-          defaultBucket: GlobalInpart
+          defaultBucket: ProjectB
           tlsSkipVerify: true
         secureJsonData:
           token: FuncTestToken
-      - name: InfluxDB_v2_Flux_Qapter
+      - name: InfluxDB_v2_Flux_ProjectC
         type: influxdb
         access: proxy
         url: http://10.0.0.16:8086
         jsonData:
           version: Flux
           organization: FuncTestOrg
-          defaultBucket: Qapter
+          defaultBucket: ProjectC
           tlsSkipVerify: true
         secureJsonData:
           token: FuncTestToken

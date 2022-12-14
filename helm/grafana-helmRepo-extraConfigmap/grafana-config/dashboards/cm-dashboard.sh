@@ -1,9 +1,9 @@
 #!/bin/bash
 
 kubectl create configmap grafana-config-dashboards \
-  --from-file=dashboard-default.json=dashboard-default.json \
-  --from-file=dashboard-globalinpart.json=dashboard-globalinpart.json \
-  --from-file=dashboard-qapter.json=dashboard-qapter.json \
+  --from-file=dashboard-ProjectA.json=dashboard-ProjectA.json \
+  --from-file=dashboard-ProjectB.json=dashboard-ProjectB.json \
+  --from-file=dashboard-ProjectC.json=dashboard-ProjectC.json \
   --dry-run=client -o yaml > ../grafana-config-dashboards.yaml
 
 # Mac Sed
