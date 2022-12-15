@@ -19,6 +19,12 @@ spec:
     chart: grafana
     helm:
       values: |
+        rbac:
+          create: true
+          pspEnabled: false
+          pspUseAppArmor: false
+          namespaced: true
+
         adminUser: admin
         adminPassword: "@dmin123"
 

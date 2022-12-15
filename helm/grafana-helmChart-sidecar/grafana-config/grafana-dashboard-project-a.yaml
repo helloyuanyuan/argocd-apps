@@ -7120,8 +7120,8 @@ data:
             "auto": false,
             "current": {
               "selected": false,
-              "text": "30s",
-              "value": "30"
+              "text": "1s",
+              "value": "1"
             },
             "hide": 0,
             "includeAll": false,
