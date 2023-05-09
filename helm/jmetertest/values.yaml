@@ -8,6 +8,6 @@ initContainers:
     repository: helloyuanyuan/jmetertestscript
     tag: latest
 
-runId: Project-A-Ver1.0.0
+runId: Project-B-Ver1.0.0
 
-scriptName: ProjectA.jmx
+scriptName: ProjectB.jmx
